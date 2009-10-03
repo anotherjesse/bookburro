@@ -118,7 +118,8 @@ var stores = [
       var response = '';
       var prices = req.responseXML.getElementsByTagName('FormattedPrice');
       for (var i=0; i<prices.length; i++) {
-        if (prices[i].parentNode.nodeName != 'Price') {
+        if (prices[i].parentNode.nodeName != 'Price' &&
+            prices[i].parentNode.nodeName != 'AmountSaved') {
           if (response == '') {
             response = prices[i].childNodes[0].nodeValue;
           }

@@ -1,6 +1,5 @@
 for contest
 
-[ ] amazon marketplace $$ is incorrect
 [ ] first run flow/welcome tab?
 [ ] audit store/service support and remove those that don't work
 [ ] ui cleanup
@@ -18,3 +17,4 @@ done:
 [x] filtering libraries happens as you type
 [x] audit files for license
 [x] filter libraries should be better (more than exact match)
+[x] amazon marketplace $$ is incorrect
