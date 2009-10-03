@@ -3,12 +3,13 @@ for contest
 [ ] first run flow/welcome tab?
 [ ] website improvement
 
-maybe:
+future/nice to have:
 
 [ ] auto-update for libraries
 
 [ ] right click sucks
 [ ] looking for ISBNs should be more aggressive but the UI shouldn't be annoying - this requires design require
+[ ] allow users to add their own affilate codes (using pref system: extensions.bookburro.amazon.code or so)
 
 done:
 [x] fix request a library link
