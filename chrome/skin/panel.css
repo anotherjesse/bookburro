@@ -21,15 +21,23 @@ body
 
 a {
   font-weight: normal;
-  color: #222;
+  color: #555;
   text-decoration: none;
   border-bottom: 1px solid #FFD83C;
 }
 
 a:hover {
-  color: #555;
-  border-bottom: 1px solid #FFC738;
+  color: #000;
+  border-bottom: 1px solid #D0B121;
 }
+
+td.price {
+  color: #555;
+}
+tr:hover td.price {
+  color: #000 !important;
+}
+
 
 table {
   border-spacing: 0;
@@ -86,9 +94,6 @@ img:hover {
   padding-right: 5px;
 }
 
-tr:hover td.price {
-  color: #555 !important;
-}
 tr.site.odd { 
   background-color: #fefac9; 
 }
