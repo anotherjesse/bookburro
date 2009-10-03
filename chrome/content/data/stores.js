@@ -95,7 +95,7 @@ var stores = [
   {
     name: 'amazon',
     title: 'Amazon',
-    affiliate_link: "http://www.amazon.com/exec/obidos/ASIN/#{ISBN_UPCASE}/anotherjesse-20",
+    affiliate_link: "http://www.amazon.com/exec/obidos/ASIN/#{ISBN_UPCASE}/bookburro-20",
     link: 'http://www.amazon.com/exec/obidos/ASIN/#{ISBN_UPCASE}',
     query: "http://bookburro.appspot.com/?isbn=#{ISBN_UPCASE}",
     process: function(req) {
@@ -111,7 +111,7 @@ var stores = [
   {
     name: 'amazon_marketplace',
     title: 'Amazon Marketplace',
-    affiliate_link: "http://www.amazon.com/exec/obidos/redirect?tag=anotherjesse-20&path=tg/stores/offering/list/-/#{ISBN_UPCASE}/all/",
+    affiliate_link: "http://www.amazon.com/exec/obidos/redirect?tag=bookburro-20&path=tg/stores/offering/list/-/#{ISBN_UPCASE}/all/",
     link: "http://www.amazon.com/gp/offer-listing/#{ISBN_UPCASE}/",
     query: "http://bookburro.appspot.com/?isbn=#{ISBN_UPCASE}",
     process: function(req) {

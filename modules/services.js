@@ -11,7 +11,7 @@
 * License.
 */
 
-var DEBUG = true;
+var DEBUG = false;
 
 var EXPORTED_SYMBOLS = ['BBSVC'];
 
