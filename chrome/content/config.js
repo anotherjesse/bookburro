@@ -14,10 +14,16 @@
 Components.utils.import("resource://bookburro/services.js"); // BBSVC
 
 function updateSearch() {
-  var text = document.getElementById('library-search').value;
+  var words = document.getElementById('library-search').value.toLowerCase().split(" ");
   var nodes = document.getElementById('libraries-list').childNodes;
   for (var i=0; i<nodes.length; i++) {
-    nodes[i].hidden = !nodes[i].getAttribute('label').toLowerCase().match(text.toLowerCase());
+    var libtext = nodes[i].getAttribute('label').toLowerCase();
+
+    var hide = false;
+    for (var j=0; j<words.length; j++) {
+      hide = hide || !libtext.match(words[j]);
+    }
+    nodes[i].hidden = hide;
   }
 }
 

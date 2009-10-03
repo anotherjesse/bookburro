@@ -1,10 +1,8 @@
 for contest
 
 [ ] amazon marketplace $$ is incorrect
-[ ] verify iframe use empty referrer
 [ ] first run flow/welcome tab?
 [ ] audit store/service support and remove those that don't work
-[ ] filter libraries should be better (more than exact match)
 [ ] ui cleanup
 
 maybe:
@@ -18,3 +16,4 @@ done:
 [x] logo
 [x] filtering libraries happens as you type
 [x] audit files for license
+[x] filter libraries should be better (more than exact match)
