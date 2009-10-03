@@ -33,9 +33,9 @@ burro.ui = new function() {
           html.TABLE(
             {id: 'heading', width:'100%'},
             html.TR(
-              html.TD({id:'title'}, 'Book Burro'),
-              html.TD(html.IMG({id: 'setup', src:'chrome://bookburro/skin/clearbits/tools.gif', title:'choose libraries and stores'})),
-              html.TD(html.IMG({id: 'close', src:'chrome://bookburro/skin/clearbits/close.gif', title:'close panel'}))
+              html.TD({id:'title', class:'bookImg'}, 'Book Burro'),
+              html.TD({class:'icon'}, html.IMG({id: 'setup', src:'chrome://bookburro/skin/clearbits/tools.gif', title:'choose libraries and stores'})),
+              html.TD({class:'icon'}, html.IMG({id: 'close', src:'chrome://bookburro/skin/clearbits/close.gif', title:'close panel'}))
             )
           )
         )
@@ -62,7 +62,7 @@ burro.ui = new function() {
           html.A({'title': site.title, 'href': site.url(isbn), 'target': '_top'},
                  site.title)));
 
-      var result = html.TD();
+      var result = html.TD({class:'price'});
       row.appendChild(result);
 
       site.check(isbn,
@@ -102,7 +102,7 @@ burro.ui = new function() {
 
     function frameit() {
       var iframe = doc.createElement('iframe');
-      iframe.setAttribute('style', 'display: fixed !important; position: fixed !important; width: 250px !important; top: 0 !important; left: 0 !important; z-index: 2147483647 !important; border: none !important; height: 100px; overflow: hidden');
+      iframe.setAttribute('style', 'display: fixed !important; position: fixed !important; width: 265px !important; top: 0 !important; left: 0 !important; z-index: 2147483647 !important; border: none !important; height: 100% !important; overflow: hidden');
       doc.body.appendChild(iframe);
       burro.log('about to add listener');
       iframe.addEventListener("load", function() {
