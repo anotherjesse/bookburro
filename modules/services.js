@@ -47,6 +47,27 @@ function log(str) {
   dump("BB: " + str + "\n");
 }
 
+/************
+ * Development Mode
+ */
+
+
+
+var custom = Cc['@mozilla.org/file/directory_service;1']
+            .getService(Ci.nsIProperties).get('ProfD', Ci.nsILocalFile);
+custom.append('bookburro');
+
+if (!custom.exists()) {
+  custom.create(Ci.nsIFile.DIRECTORY_TYPE, 0700);
+}
+
+custom.append('custom.js');
+
+function getLibs() {
+}
+
+
+
 /**********
  * Caching
  */
