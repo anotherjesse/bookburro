@@ -25,7 +25,6 @@
       <tab label="Book Stores" />
       <tab label="Libraries" oncommand="bbConfig.loadLibs()" />
       <tab label="WorldCat" />
-      <tab label="Request Library" />
       <tab label="Affilate Codes" />
     </tabs>
     <tabpanels>
@@ -42,7 +41,10 @@
       </tabpanel>
       <tabpanel id="library-tab">
         <vbox>
-          <label>Use the WorldCat tab for more options</label>
+          <hbox>
+            <label>Is your library missing or incorrect? Join us at </label>
+            <label class="text-link" href="http://www.bookburro.org/libraries">bookburro.org</label>
+          </hbox>
           <spacer height="5" />
           <hbox>
             <textbox type="search" emptytext="Filter Library List" oncommand="updateSearch()" id="library-search" />
@@ -63,7 +65,10 @@
           </description>
           <spacer height="10" />
           <description>
-            Book Burro will search Open WorldCat for library holdings near your location.  It will present a list of the five closest locations of the book.
+            Book Burro used to show you WorldCat library holdings near your location, but they haven't given us a key to the new API, once we have one we will re-add this feature.
+          </description>
+          <description>
+            In the mean time we will link you to the WorldCat search results page of libraries near you.
           </description>
           <spacer height="10" />
           <description>
@@ -73,18 +78,8 @@
             <textbox id="worldcat-location" onchange="bbConfig.saveWorldCat()" />
             <spacer flex="1" />
           </hbox>
-          <description>
-            Number of results to display (default is to show 5 closest results)
-          </description>
-          <hbox>
-            <textbox id="worldcat-results" onchange="bbConfig.saveWorldCat()" />
-            <spacer flex="1" />
-          </hbox>
         </vbox>
       </tabpanel>
-<tabpanel>
-  <iframe src="http://librari.us/request" flex="1" />
-</tabpanel>
       <tabpanel>
         <vbox style="max-width: 400px">
           <description>

@@ -69,7 +69,7 @@ burro.ui = new function() {
     doc.getElementById('setup').addEventListener('click', configure, false);
 
     function addSite(site, odd) {
-      var row = html.TR({'class': 'site '+ (odd ? 'odd' : ''), 'busy': true});
+      var row = html.TR({'class': 'site '+ (odd ? 'odd' : ''), 'busy': !!site.check});
       row.appendChild(
         html.TH(
           html.A({'title': site.title, 'href': site.url(isbn), 'target': '_top'},
@@ -78,19 +78,28 @@ burro.ui = new function() {
       var result = html.TD();
       row.appendChild(result);
 
-      site.check(isbn,
-        function(i) {
-          row.removeAttribute('busy');
-          result.appendChild(doc.createTextNode(i));
-        },
-        function(i) {
-          row.removeAttribute('busy');
-          result.appendChild(doc.createTextNode(i));
-        });
+      if (site.check) {
+        site.check(isbn,
+          function(i) {
+            row.removeAttribute('busy');
+            result.appendChild(doc.createTextNode(i));
+          },
+          function(i) {
+            row.removeAttribute('busy');
+            result.appendChild(doc.createTextNode(i));
+          });
+      }
+
       table.appendChild(row);
     }
 
     var odd = false;
+
+    var worldcat = BBSVC.worldcat();
+    if (worldcat.active()) {
+      odd = !odd;
+      addSite(worldcat, odd);
+    }
 
     var stores = BBSVC.active_stores();
     for (var i=0; i<stores.length; i++) {

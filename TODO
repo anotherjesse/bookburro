@@ -1,13 +1,14 @@
 for contest
 
 [ ] audit files for license
-[ ] make integration with worldcat kinda work?
+[x] make integration with worldcat kinda work?
+[ ] hitting enter in filter should not close config
 [ ] audit store/service support and remove those that don't work
 [ ] amazon marketplace $$ is incorrect
 [ ] welcome tab
-[ ] fix request a library link
+[x] fix request a library link
 [ ] first run flow
-[ ] search should be better
+[ ] filter libraries should be better (more than exact match)
 [ ] ui cleanup
 [ ] logo
 

@@ -376,6 +376,8 @@ function library_process(req, isbn) {
 
 function Worldcat() {};
 
+Worldcat.prototype.title = "Worldcat";
+
 Worldcat.prototype.url =
 function worldcat_url(isbn) {
   return 'http://worldcat.org/wcpa/isbn/'+isbn+'&loc='+this.location();
@@ -396,68 +398,72 @@ function worldcat_active() {
   return !!this.location();
 };
 
-Worldcat.prototype.check =
-function worldcat_check(isbn, successCallback, failureCallback, forceQuery) {
-  var inst = this;
-  var cacheKey = 'worldcat:' + this.location() + ':' + isbn;
+// Worldcat.prototype.check =
+// function worldcat_check(isbn, successCallback, failureCallback, forceQuery) {
+//   var inst = this;
+//   var cacheKey = 'worldcat:' + this.location() + ':' + isbn;
 
-  if (!forceQuery) {
-    var status = CACHE.get(cacheKey);
-    if (status !== undefined) {
-      return successCallback(status);
-    }
-  }
+//   if (!forceQuery) {
+//     var status = CACHE.get(cacheKey);
+//     if (status !== undefined) {
+//       return successCallback(status);
+//     }
+//   }
 
-  var req = new XMLHttpRequest();
-  req.open('GET', inst.url(isbn), true);
+//   var req = new XMLHttpRequest();
+//   req.open('GET', inst.url(isbn), true);
 
-  // FIXME: no fallureCallback?
-  req.onreadystatechange = function() {
-    if (req.readyState == 4 && req.status == 200) {
-      var status = inst.process(req, isbn);
-      CACHE.set(cacheKey, status);
-      successCallback(status);
-    }
-  };
+//   // FIXME: no fallureCallback?
+//   req.onreadystatechange = function() {
+//     if (req.readyState == 4 && req.status == 200) {
+//       var status = inst.process(req, isbn);
+//       CACHE.set(cacheKey, status);
+//       successCallback(status);
+//     }
+//   };
 
-  req.send(null);
-};
+//   req.send(null);
+// };
 
-Worldcat.prototype.process =
-function worldcat_process(req, isbn) {
-  var text = req.responseText;
-  if (text.match(/we cannot identify the location you entered/)) {
-    return '!';
-  }
-  if (text.match(/Sorry, no libraries with the specified item were found/)) {
-    return '';
-  }
-  if (text.match(/Your Find in a Library search found no records./)) {
-    return '';
-  }
-  text = text.split(/<table [^>]*class="tableResults"[^>]*>/m)[1];
-  text = text.split(/<div class="fin?al-resultsinfo">/m)[0];
-  text = text.split(/<table [^>]*class="tableLibrary"[^>]*>/m);
-  var results = [];
-  for (var i=1; i<text.length; i++) {
-    try {
-      var result = {};
-      var str = text[i].replace(/[\r\n]+/mg, ' ');
-      var name = str.match(/<td class="name">(.*?)<\/td>/);
-      if (name) {
-        result.name = name[1].replace(/<[^>]*>/g, '');
-        var href = name[1].match(/href="(.*?)"/);
-        if (href) {
-          result.href = href[1];
-        }
-      } else { continue; }
-      result.distance = text[i].match(/\d+ miles?/m)[0];
-      result.location = text[i].match(/<td class="location">([^<]*)<\/td>/m)[1];
-      results.push(result);
-    } catch (e) {}
-  }
-  return results;
-};
+// Worldcat.prototype.process =
+// function worldcat_process(req, isbn) {
+//   var text = req.responseText;
+//   if (text.match(/we cannot identify the location you entered/)) {
+//     return '!';
+//   }
+//   if (text.match(/Sorry, no libraries with the specified item were found/)) {
+//     return '';
+//   }
+//   if (text.match(/Your Find in a Library search found no records./)) {
+//     return '';
+//   }
+//   text = text.split(/<table [^>]*class="tableResults"[^>]*>/m)[1];
+//   text = text.split(/<div class="fin?al-resultsinfo">/m)[0];
+//   text = text.split(/<table [^>]*class="tableLibrary"[^>]*>/m);
+//   var results = [];
+//   for (var i=1; i<text.length; i++) {
+//     try {
+//       var result = {};
+//       var str = text[i].replace(/[\r\n]+/mg, ' ');
+//       var name = str.match(/<td class="name">(.*?)<\/td>/);
+//       if (name) {
+//         result.name = name[1].replace(/<[^>]*>/g, '');
+//         var href = name[1].match(/href="(.*?)"/);
+//         if (href) {
+//           result.href = href[1];
+//         }
+//       } else { continue; }
+//       result.distance = text[i].match(/\d+ miles?/m)[0];
+//       result.location = text[i].match(/<td class="location">([^<]*)<\/td>/m)[1];
+//       results.push(result);
+//     } catch (e) {}
+//   }
+//   return results;
+// };
+
+BBSVC.worldcat = function() {
+  return new Worldcat();
+}
 
 /***********************
  * Store enumerator
