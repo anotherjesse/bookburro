@@ -1,9 +1,9 @@
 for contest
 
+[ ] amazon marketplace $$ is incorrect
+[ ] verify iframe use empty referrer
 [ ] first run flow/welcome tab?
 [ ] audit store/service support and remove those that don't work
-[ ] audit files for license
-[ ] amazon marketplace $$ is incorrect
 [ ] filter libraries should be better (more than exact match)
 [ ] ui cleanup
 
@@ -17,3 +17,4 @@ done:
 [x] make integration with worldcat kinda work?
 [x] logo
 [x] filtering libraries happens as you type
+[x] audit files for license
