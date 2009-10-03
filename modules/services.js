@@ -490,6 +490,10 @@ BBSVC.stores = function() {
 
 var libraries = loadSubScript('chrome://bookburro/content/data/libraries.js').libraries;
 
+libraries.sort(function(a,b) {
+                 return (a.title < b.title) ? -1 : 1;
+               });
+
 function active_libraries(force) {
   var rval = [];
   for (var i = 0; i < libraries.length; i++) {
