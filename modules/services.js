@@ -63,7 +63,10 @@ if (!custom.exists()) {
 
 custom.append('custom.js');
 
-function getLibs() {
+function getCustom() {
+  if (custom.exists()) {
+    return loadSubScript('file://'+custom.path).libraries;
+  }
 }
 
 
@@ -517,6 +520,19 @@ libraries.sort(function(a,b) {
 
 function active_libraries(force) {
   var rval = [];
+
+  try {
+    var custom = getCustom();
+    log(custom)
+    if (custom) {
+      for (var i = 0; i < custom.length; i++) {
+        rval.push(new Library(custom[i]));
+      }
+    }
+  } catch(e) {
+    log("Error loading custom.js: " + e);
+  }
+
   for (var i = 0; i < libraries.length; i++) {
     var library = new Library(libraries[i]);
     if (force || library.active()) {
