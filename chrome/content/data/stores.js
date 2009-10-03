@@ -146,19 +146,19 @@ var stores = [
       }
     }
   },
-  {
-    name: 'barnesnoble',
-    title: 'Barnes & Noble',
-    link: 'http://search.barnesandnoble.com/booksearch/isbninquiry.asp?isbn=#{ISBN}',
-    affiliate_link: 'http://search.barnesandnoble.com/booksearch/isbninquiry.asp?isbn=#{ISBN}&afsrc=1&lkid=J27115602&pubid=K131337&byo=1',
-    query: 'http://search.barnesandnoble.com/booksearch/isbninquiry.asp?isbn=#{ISBN}',
-    process: function(req) {
-      // </li><li><strong>$34.99</strong> Online price
-      try {
-        return req.responseText.match(/<strong>(\$[0-9.]*)<\/strong> Online price/)[1];
-      } catch (e) {}
-    }
-  },
+//   {
+//     name: 'barnesnoble',
+//     title: 'Barnes & Noble',
+//     link: 'http://search.barnesandnoble.com/booksearch/isbninquiry.asp?isbn=#{ISBN}',
+//     affiliate_link: 'http://search.barnesandnoble.com/booksearch/isbninquiry.asp?isbn=#{ISBN}&afsrc=1&lkid=J27115602&pubid=K131337&byo=1',
+//     query: 'http://search.barnesandnoble.com/booksearch/isbninquiry.asp?isbn=#{ISBN}',
+//     process: function(req) {
+//       // </li><li><strong>$34.99</strong> Online price
+//       try {
+//         return req.responseText.match(/<strong>(\$[0-9.]*)<\/strong> Online price/)[1];
+//       } catch (e) {}
+//     }
+//   },
   {
     name: 'barnesnoble_member',
     title: 'Barnes & Noble Member',
