@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<page xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  title="Book Burro WorldCat">
+
+  <script type="application/x-javascript" src="chrome://browser/content/utilityOverlay.js"/>
+  <script type="application/x-javascript" src="chrome://bookburro/content/worldcat.js"/>
+  <script type="application/x-javascript" src="chrome://bookburro/content/utils.js"/>
+  <script type="application/x-javascript" src="chrome://bookburro/content/test/worldcat.js"/>
+
+  <vbox flex="1">
+    <radiogroup orient="horizontal" id="zipcodes" />
+    <radiogroup orient="horizontal" id="isbns" />
+    <hbox>
+      <button label="query" oncommand="query()" />
+      <button label="visit" oncommand="visit()" />
+      <spacer flex="1" />
+    </hbox>
+    <grid style="overflow: scroll" flex="1">
+      <columns>
+        <column flex="1" />
+        <column flex="1" />
+        <column flex="1" />
+        <column flex="1" />
+      </columns>
+      <rows id="rows">
+        <row save="true">
+          <label value="name" />
+          <label value="distance" />
+          <label value="location" />
+          <label value="href" />
+        </row>
+      </rows>
+    </grid>
+  </vbox>
+</page>

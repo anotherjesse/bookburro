@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<page xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  title="Book Burro Explorer">
+  
+  <script type="application/x-javascript" src="chrome://browser/content/utilityOverlay.js"/>
+  
+  <script type="text/javascript"><![CDATA[ 
+
+    function loadJS() {
+      const loader = Components.classes["@mozilla.org/moz/jssubscript-loader;1"]
+                               .getService(Components.interfaces.mozIJSSubScriptLoader);
+
+      var scripts = [
+          'chrome://bookburro/content/sites.js', 
+          'chrome://bookburro/content/explore.js', 
+        ];
+
+      for (var i = 0; i < scripts.length; i++) {
+        loader.loadSubScript(scripts[i], window);
+      }
+    }
+
+    window.addEventListener("load", loadJS, false);
+  ]]></script>
+  
+  <vbox flex="1">
+    <menubar>
+      <menu label="Libraries" accesskey="L" >
+        <menupopup id="libraries" oncommand="source.find(libraries, event.target.id)" />
+      </menu>
+      <menu label="Stores" accesskey="S" >
+        <menupopup id="stores" oncommand="source.find(book_stores, event.target.id)" />
+      </menu>
+      <menu label="ISBNs" accesskey="I" >
+        <menupopup id="isbns" oncommand="loadIsbn(event.target.id)" />
+      </menu>
+    </menubar>
+    
+    <hbox>
+      <label id="kind" />
+      <label id="title" />
+    </hbox>
+    <hbox>
+      <label value="ISBN" />
+      <textbox id="isbn" />
+      <button label="test" oncommand="source.test();" />
+      <button label="view" oncommand="source.view();" />
+    </hbox>
+    <hbox flex="1">
+      <textbox multiline="true" id="code" flex="7" />
+      <splitter collapse="after"><grippy /></splitter>
+      <textbox multiline="true" id="status" flex="1" />
+    </hbox>
+    <textbox multiline="true" id="responseText" flex="10" />
+  </vbox>
+</page>

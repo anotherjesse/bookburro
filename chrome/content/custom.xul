@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        title="Custom Source" id="bookburroConfig"
+        buttons="accept,help,extra1,extra2"
+        buttonlabelextra1="Test"
+        buttonlabelextra2="Submit"
+        onload="bookburroConfig.onLoad();"
+        style="width: 500px;"
+        ondialogaccept="return bookburroConfig.onAccept();">
+  <caption label="Building a Custom Source" style="font-weight: bold"/>
+  <label value="Title    example: Seattle Public Library" control="bookburro.custom.title"/>
+  <textbox id="bookburro.custom.title"/>
+  <label value="Homepage    example: http://library.edu" control="bookburro.custom.homepage" />
+  <textbox id="bookburro.custom.homepage" />
+  <label value="Address     example: Palo Alto, CA, USA or FKK-4GH (UK)" control="bookburro.custom.address" />
+  <textbox id="bookburro.custom.address" />
+  <label value="Link to book by ISBN     example: http://example.com/view?isbn=#{ISBN}" control="bookburro.custom.link"/>
+  <textbox id="bookburro.custom.link" />
+  <label value="ISBNs of books library has" control="bookburro.custom.good_isbns" />
+  <textbox id="bookburro.custom.good_isbns" />
+  <label value="ISBNs of books library doesn't have" control="bookburro.custom.bad_isbns" />
+  <textbox id="bookburro.custom.bad_isbns" />
+  <radiogroup>
+    <radio id="bookburro.custom.match_isbn" label="library has book if and only if page contains isbn" />
+    <hbox>
+      <radio id="bookburro.custom.good_match" label="library has book if and only if the page contains a specific string" />
+      <textbox flex="1" id="bookburro.custom.good_match_text" />
+    </hbox>
+    <hbox>
+      <radio id="bookburro.custom.bad_match" label="library doesn't have book if and only if the page contains a specific string" />
+      <textbox flex="1" id="bookburro.custom.bad_match_text" />
+    </hbox>
+  </radiogroup>
+</dialog>

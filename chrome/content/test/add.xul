@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<page xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="text/javascript" src="chrome://bookburro/content/utils.js" />
+  <script type="text/javascript" src="chrome://bookburro/content/logic.js" />
+  <script type="text/javascript" src="chrome://bookburro/content/libraries.js" />
+  <script type="text/javascript" src="chrome://bookburro/content/test/add.js" />
+
+  <vbox flex="1">
+    <hbox>
+      <button label="Save" 
+              accesskey="S" 
+              tooltiptext="Upload to Librarius" 
+              oncommand="save()" />
+      <button label="Query" 
+              acceskey="Q" 
+              tooltiptext="Query and test ISBNs" 
+              oncommand="query()" />
+      <label value="Link" accesskey="L" control="link" />
+      <textbox id="link" flex="1" />
+      <button label="Clear" 
+              accesskey="C" 
+              oncommand="clear()" />
+    </hbox>
+    <hbox>
+      <label value="Name" accesskey="N" control="name" />
+      <textbox id="name" />
+      <label value="Title" accesskey="T" control="title" />
+      <textbox id="title" />
+    </hbox>
+    <radiogroup orient="horizontal">
+      <radio label="ISBN Match" accesskey="I" id="match_isbn" oncommand="match()" />
+      <radio label="Found Text" accesskey="F" id="found" oncommand="found()" />
+      <textbox id="found_text" flex="1" hidden="true" />
+      <radio label="Missing Text" accesskey="M" id="missing" oncommand="missing()" />
+      <textbox id="missing_text" flex="1" hidden="true" />
+    </radiogroup>
+    <hbox id="have">
+      <label value="ISBNs have" accesskey="h" control="have" />
+      <textbox oninput="have(event)" 
+               onblur="update(event)" />
+    </hbox>
+    <hbox id="dont">
+      <label value="ISBNs don't" accesskey="d" control="dont" />
+      <textbox oninput="dont(event)" 
+               onblur="update(event" />
+    </hbox>
+    <iframe id="tester" type="content" flex="1" style="height: 100%" />
+  </vbox>
+
+</page>

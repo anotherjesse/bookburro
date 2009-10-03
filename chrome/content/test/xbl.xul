@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/css" href="chrome://bookburro/skin/panel.css"?>
+
+<page xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <vbox>
+    <label value="widget" />
+    <bookburro id="bookburro-details" isbn="0596101996" />
+    <label value="over" />
+  </vbox>
+</page>

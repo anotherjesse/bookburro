@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest">
+    <em:name>Book Burro - Remixing the bookstore</em:name>
+    <em:id>{c7d1f80d-de65-49ee-852b-2b00b3b19a5d}</em:id>
+    <em:version>0.7</em:version>
+    <em:description>Your Book Browsing Companion</em:description>
+    <em:creator>Jesse Andrews; http://overstimulate.com</em:creator>
+    <em:homepageURL>http://www.bookburro.org</em:homepageURL>
+    <em:updateURL>https://bookburro.org/preview.rdf</em:updateURL>
+    <em:optionsURL>chrome://bookburro/content/config.xul</em:optionsURL>
+
+    <!-- firefox -->
+    <em:targetApplication>
+      <RDF:Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>3.5.*</em:maxVersion>
+      </RDF:Description>
+    </em:targetApplication>
+
+    <em:file>
+      <RDF:Description RDF:about="urn:mozilla:extension:file:bookburro">
+        <em:package>content/</em:package>
+      </RDF:Description>
+    </em:file>
+  </RDF:Description>
+</RDF:RDF>

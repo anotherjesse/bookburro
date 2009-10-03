@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<page xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  title="Book Burro Status">
+
+  <tabbox flex="1">
+    <tabs>
+      <tab label="Libraries" />
+      <tab label="Stores" />
+      <tab label="Worldcat" />
+    </tabs>
+    <tabpanels flex="1">
+      <tabpanel id="libraries-tab">
+        <iframe src="test/libraries.html" flex="1" />
+      </tabpanel>
+      <tabpanel id="stores-tab">
+        <iframe src="test/stores.html" flex="1" />
+      </tabpanel>
+      <tabpanel id="worldcat-tab">
+        <iframe src="test/worldcat.xul" flex="1" />
+      </tabpanel>
+    </tabpanels>
+  </tabbox>
+</page>

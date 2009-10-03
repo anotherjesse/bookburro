@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Library Tests</title>
+
+  <script type="application/x-javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+  <script type="application/x-javascript" src="chrome://bookburro/content/vendor/dombuilder.js"></script>
+  <script type="text/javascript" src="chrome://bookburro/content/utils.js"></script>
+  <script type="text/javascript" src="chrome://bookburro/content/test/libraries.js"></script>
+</head>
+<body>
+  <div id="explore" style="position:fixed; left: 0; top: 0; background: #e8e8e8; padding: 4px"></div>
+  <br />
+  <p>
+    <a href="#" onclick="testAll(); return false">Test all libraries</a><br/>
+    <em>Total:</em> <b id="total"></b>
+    <em>Pass:</em> <b id="pass"></b>
+    <em>Fail:</em> <b id="fail"></b>
+    <em>Timeout:</em> <b id="timeout"></b>
+  </p>
+
+
+  <table style="width: 100%">
+    <thead>
+      <tr>
+        <th colspan="3">Name</th>
+        <th>ISBNs carried</th>
+        <th>ISBNs not</th>
+      </tr>
+    </thead>
+  </table>
+</body>
+</html>

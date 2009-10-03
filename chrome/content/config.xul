@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  title="Book Burro Configuration" id="bookburroConfig"
+  buttons="accept">
+
+  <script type="text/javascript" src="config.js"></script>
+
+  <tabbox style="max-width: 500px; min-width: 500px">
+    <tabs>
+      <tab label="Book Stores" />
+      <tab label="Libraries" oncommand="bbConfig.loadLibs()" />
+      <tab label="WorldCat" />
+      <tab label="Request Library" />
+      <tab label="Affilate Codes" />
+    </tabs>
+    <tabpanels>
+      <tabpanel id="store-tab">
+        <vbox>
+          <label>Check out Libraries and WorldCat as well</label>
+          <spacer height="5" />
+          <scrollbox id="book_stores-list"
+            orient="vertical"
+            height="400"
+            style="overflow: auto;"
+            flex="1" />
+        </vbox>
+      </tabpanel>
+      <tabpanel id="library-tab">
+        <vbox>
+          <label>Use the WorldCat tab for more options</label>
+          <spacer height="5" />
+          <hbox>
+            <textbox type="search" emptytext="Filter Library List" oncommand="updateSearch()" id="library-search" />
+            <spacer flex="1" />
+            <progressmeter id="library-meter" mode="undetermined" />
+          </hbox>
+          <scrollbox id="libraries-list"
+            orient="vertical"
+            height="400"
+            style="overflow: auto;"
+            flex="1" />
+        </vbox>
+      </tabpanel>
+      <tabpanel id="worldcat-tab">
+        <vbox style="max-width: 400px">
+          <description>
+            WorldCat is a worldwide union catalog created and maintained collectively by more than 9,000 member institutions. With millions of online records built from the bibliographic and ownership information of contributing libraries, it is the largest and most comprehensive database of its kind.
+          </description>
+          <spacer height="10" />
+          <description>
+            Book Burro will search Open WorldCat for library holdings near your location.  It will present a list of the five closest locations of the book.
+          </description>
+          <spacer height="10" />
+          <description>
+            Your location (postal code, state, province, or country)
+          </description>
+          <hbox>
+            <textbox id="worldcat-location" onchange="bbConfig.saveWorldCat()" />
+            <spacer flex="1" />
+          </hbox>
+          <description>
+            Number of results to display (default is to show 5 closest results)
+          </description>
+          <hbox>
+            <textbox id="worldcat-results" onchange="bbConfig.saveWorldCat()" />
+            <spacer flex="1" />
+          </hbox>
+        </vbox>
+      </tabpanel>
+<tabpanel>
+  <iframe src="http://librari.us/request" flex="1" />
+</tabpanel>
+      <tabpanel>
+        <vbox style="max-width: 400px">
+          <description>
+            By default Book Burro uses affiliate codes when it creates links to stores when it has them.  These help support the further development of Book Burro.  If you wish, you may disable affiliate codes.
+          </description>
+          <checkbox label="Disable Affiliate Codes"
+                    id="disable-affiliate"
+                    oncommand="bbConfig.saveAffiliate()" />
+        </vbox>
+      </tabpanel>
+    </tabpanels>
+  </tabbox>
+</dialog>

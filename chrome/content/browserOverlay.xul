@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/css" href="chrome://bookburro/skin/panel.css"?>
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" id="bookburro-overlay">
+
+  <script type="text/javascript" src="chrome://bookburro/content/utils.js" />
+  <script type="text/javascript" src="chrome://bookburro/content/logic.js" />
+  <script type="text/javascript" src="chrome://bookburro/content/dombuilder.js" />
+  <script type="text/javascript" src="chrome://bookburro/content/gui.js" />
+
+  <menupopup id="menu_ToolsPopup">
+    <menuitem insertafter="devToolsSeparator"
+      label="Book Burro Settings"
+      accesskey="B"
+      oncommand="window.openDialog('chrome://bookburro/content/config.xul', 'bookburroConfig', 'centerscreen,chrome,modal');" />
+  </menupopup>
+
+  <popup id="contentAreaContextMenu">
+    <menuitem id="bb-menu"
+              label="ISBN Lookup"
+              oncommand="burro.contextSearch()" />
+  </popup>
+
+</overlay>
