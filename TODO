@@ -1,13 +1,14 @@
 for contest
 
 [ ] first run flow/welcome tab?
-[ ] audit store/service support and remove those that don't work
 [ ] website improvement
 
 maybe:
 
 [ ] auto-update for libraries
 
+[ ] right click sucks
+[ ] looking for ISBNs should be more aggressive but the UI shouldn't be annoying - this requires design require
 
 done:
 [x] fix request a library link
@@ -20,3 +21,4 @@ done:
 [x] sort libraries in config
 [x] load user custom.js libraries
 [x] ui cleanup
+[x] audit store/service support and remove those that don't work
