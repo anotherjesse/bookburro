@@ -15,6 +15,19 @@ var burro = burro || {};
 
 (function() {
 
+  // If we've not welcomed user to let them know how to use book burro, do so
+  var prefService = Cc['@mozilla.org/preferences-service;1']
+                      .getService(Ci.nsIPrefService);
+  var prefs = prefService.getBranch('extensions.bookburro.');
+  var welcomed = prefs.getPrefType('welcomed') && prefs.getBoolPref("welcomed");
+  if (!welcomed) {
+    setTimeout(function(){ window.openUILinkIn('http://www.bookburro.org?welcome', "tab"); }, 500);
+    prefs.setBoolPref("welcomed", true);
+  }
+
+  // Flush prefs to desk to be sure we don't open the welcome twice!
+  prefService.savePrefFile(null);
+
   Components.utils.import("resource://bookburro/services.js"); // BBSVC
 
   burro.contextSearch = function() {
