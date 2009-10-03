@@ -523,7 +523,6 @@ function active_libraries(force) {
 
   try {
     var custom = getCustom();
-    log(custom)
     if (custom) {
       for (var i = 0; i < custom.length; i++) {
         rval.push(new Library(custom[i]));
