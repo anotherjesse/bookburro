@@ -8,7 +8,7 @@
     <em:description>Your Book Browsing Companion</em:description>
     <em:creator>Jesse Andrews; http://overstimulate.com</em:creator>
     <em:homepageURL>http://www.bookburro.org</em:homepageURL>
-    <em:updateURL>https://bookburro.org/preview.rdf</em:updateURL>
+    <em:updateURL>https://bookburro.org/updates.rdf</em:updateURL>
     <em:optionsURL>chrome://bookburro/content/config.xul</em:optionsURL>
     <em:iconURL>chrome://bookburro/skin/logo.png</em:iconURL>
 
