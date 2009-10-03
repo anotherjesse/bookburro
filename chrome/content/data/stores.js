@@ -175,16 +175,17 @@ var stores = [
   {
     name: 'buy',
     title: 'Buy',
-    link: "http://www.buy.com/retail/GlobalSearchAction.asp?qu=#{ISBN}",
+    link: "http://www.buy.com/retail/usersearchresults.asp?qu=#{ISBN}",
     process: function(req) {
 
       if (req.responseText.match('did not return an exact match.')) {
         return '';
       }
+  //<span class="adPrice" style="font-size:11px"><b>$11.20</b></span>
+  // <td style="padding-top:1px;line-height:15px;" align="center"><nobr><b>Our Low Price: </b><span class="adPrice"><b>$28.34</b></span>&nbsp; </nobr></td>
+  // <td align="center"><b>Low Price: </b><b class='adPrice'>$8.48</b></td></tr></table></div></td>
 
-      // <td style="padding-top:1px;line-height:15px;" align="center"><nobr><b>Our Low Price: </b><span class="adPrice"><b>$28.34</b></span>&nbsp; </nobr></td>
-      // <td align="center"><b>Low Price: </b><b class='adPrice'>$8.48</b></td></tr></table></div></td>
-      var price = req.responseText.match(/Low Price: <\/b><[^>]*class=['"]+adPrice['"]+[^>]*>[<b>]*(\$[0-9.]*)</);
+      var price = req.responseText.match(/<span[^>]*class=['"]+adPrice['"]+[^>]*>[<b>]*(\$[0-9.]*)</);
       if (price) {
         return price[1];
       }
