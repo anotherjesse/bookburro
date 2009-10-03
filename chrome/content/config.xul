@@ -47,7 +47,7 @@
           </hbox>
           <spacer height="5" />
           <hbox>
-            <textbox type="search" emptytext="Filter Library List" oncommand="updateSearch()" id="library-search" />
+            <textbox type="search" emptytext="Filter Library List" oninput="updateSearch();" id="library-search" />
             <spacer flex="1" />
             <progressmeter id="library-meter" mode="undetermined" />
           </hbox>

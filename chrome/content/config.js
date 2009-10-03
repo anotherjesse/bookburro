@@ -2,7 +2,7 @@
 * Copyright 2005-2009 Jesse Andrews
 *
 * This file may be used under the terms of of the
-* GNU General Public License Version 2 or later (the "GPL"),
+* GNU General Public License Version 3 or later (the "GPL"),
 * http://www.gnu.org/licenses/gpl.html
 *
 * Software distributed under the License is distributed on an "AS IS" basis,
@@ -32,11 +32,6 @@ var bbConfig = {
     } catch (e) {}
 
     try {
-      var wc_results = bbConfig.prefs.getIntPref('worldcat-results');
-      document.getElementById('worldcat-results').value = wc_results;
-    } catch (e) {}
-
-    try {
       var disable_affiliate = bbConfig.prefs.getBoolPref('disable_affiliate');
       document.getElementById('disable-affiliate').checked = disable_affiliate;
     } catch (e) {}
@@ -52,13 +47,6 @@ var bbConfig = {
   },
   saveWorldCat: function() {
     this.prefs.setCharPref('worldcat', document.getElementById('worldcat-location').value );
-    var results = parseInt(document.getElementById('worldcat-results').value, 10);
-    if (results > 0) {
-      this.prefs.setIntPref('worldcat-results', results );
-    }
-    else {
-      this.prefs.clearUserPref('worldcat-results');
-    }
   },
   saveAffiliate: function() {
     this.prefs.setBoolPref('disable_affiliate', document.getElementById('disable-affiliate').checked );

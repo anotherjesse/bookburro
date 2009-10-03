@@ -3,7 +3,6 @@ for contest
 [ ] first run flow/welcome tab?
 [ ] audit store/service support and remove those that don't work
 [ ] audit files for license
-[ ] hitting enter in filter should not close config
 [ ] amazon marketplace $$ is incorrect
 [ ] filter libraries should be better (more than exact match)
 [ ] ui cleanup
@@ -17,3 +16,4 @@ done:
 [x] fix request a library link
 [x] make integration with worldcat kinda work?
 [x] logo
+[x] filtering libraries happens as you type
