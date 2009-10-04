@@ -15,6 +15,223 @@
 
 var libraries = [
 {
+     name: 'us.al.florence_lauderdale_public_library',
+     title: 'AL - Florence-Lauderdale Public Library',
+     link: 'http://catalog.flpl.lib.al.us/polaris/search/searchresults.aspx?type=Default&by=ISBN&term=#{ISBN}',
+     dont: '0967865204',
+     have: '0373880065',
+     missing: 'No titles found'
+},
+{
+     name: 'us.al.austin_high_school',
+     title: 'AL - Austin High School',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=5',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.courtland',
+     title: 'AL - Courtland',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=10',
+     dont: '0373872704',
+     have: '0439786770',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.courtland_juvenile',
+     title: 'AL - Courtland Juvenile',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=11',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.decatur_high_school',
+     title: 'AL - Courtland Juvenile',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=27',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.deKalb_county',
+     title: 'AL - DeKalb County',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=30',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.deKalb_county_juvenile',
+     title: 'AL - DeKalb County Juvenile',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=31',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.gadsden_state_all_libraries',
+     title: 'AL - Gadsden State, All Libraries',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=36',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.gadsden_state_gadsden',
+     title: 'AL - Gadsden State-Gadsden',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=37',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.gadsden_state_ayers',
+     title: 'AL - Gadsden State-Ayers',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=39',
+     dont: '0373872704',
+     have: '0394839129',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.gadsden_state_cherokee',
+     title: 'AL - Gadsden State-Cherokee',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=40',
+     dont: '0373872704',
+     have: '0534004695',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.gadsden_state_mcclellan',
+     title: 'AL - Gadsden State-McClellan',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=38',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.gadsden_state_valley_st',
+     title: 'AL - Gadsden State-Valley St',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=35',
+     dont: '0373872704',
+     have: '0511073941',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.helen_keller',
+     title: 'AL - Helen Keller',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=41',
+     dont: '0967865204',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.helen_keller_juvenile',
+     title: 'AL - Helen Keller Juvenile',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=42',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.muscle_shoals',
+     title: 'AL - Muscle Shoals',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=43',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.muscle_shoals_juvenile',
+     title: 'AL - Muscle Shoals Juvenile',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=44',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.northeast_alabama',
+     title: 'AL - Northeast Alabama',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=45',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.northwest_phil_campbell',
+     title: 'AL - Northwest-Phil Campbell',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=48',
+     dont: '0373872704',
+     have: '0590353403',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.northwest_shoals',
+     title: 'AL - Northwest Shoals',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=47',
+     dont: '0373872704',
+     have: '0590353403',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.northwest_shoals_all',
+     title: 'AL - Northwest Shoals, All',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=46',
+     dont: '0373872704',
+     have: '0590353403',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.scottsboro',
+     title: 'AL - Scottsboro',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=52',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.scottsboro_juvenile',
+     title: 'AL - Scottsboro Juvenile',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=53',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.sheffield',
+     title: 'AL - Sheffield',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=54',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.sheffield_juvenile',
+     title: 'AL - Sheffield Juvenile',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=55',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.shoals_area_libraries',
+     title: 'AL - Shoals Area Libraries',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=56',
+     dont: '0882665456',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+{
+     name: 'us.al.snead',
+     title: 'AL - Snead',
+     link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=57',
+     dont: '0373872704',
+     have: '0439136350',
+     missing: 'No matches found'
+},
+
+{
      name: 'us.va.adams_elementary_library',
      title: 'VA - Adams Elementary Library',
      link: 'http://catalog.henrico.k12.va.us/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ADAMS',
@@ -5950,4 +6167,5 @@ var libraries = [
 	     have: '0439786770',
 	     missing: 'found no matches'
 	},
+
   ];
