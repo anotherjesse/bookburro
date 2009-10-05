@@ -15,6 +15,1127 @@
 
 var libraries = [
 {
+name: 'us.ny.nypl.entire_collection',
+title: 'NYPL - Entire Collection',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=1',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.58th_street',
+title: 'NYPL - 58th Street',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=2',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.67th_street',
+title: 'NYPL - 67th Street',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=3',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.96th_street',
+title: 'NYPL - 96th Street',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=4',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.115th_street',
+title: 'NYPL - 115th Street',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=5',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.125th_street',
+title: 'NYPL - 125th Street',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=6',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.aguilar',
+title: 'NYPL - Aguilar',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=7',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.allerton',
+title: 'NYPL - Allerton',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=8',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.andrew_heiskell',
+title: 'NYPL - Andrew Heiskell',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=9',
+dont: '0967865204',
+have: '0439784549',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.baychester',
+title: 'NYPL - Baychester',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=11',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.belmont',
+title: 'NYPL - Belmont',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=12',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.bloomingdale',
+title: 'NYPL - Bloomingdale',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=13',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.bronx_library_center',
+title: 'NYPL - Bronx Library Center',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=14',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.castle_hill',
+title: 'NYPL - Castle Hill',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=15',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.chatham_square',
+title: 'NYPL - Chatham Square',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=16',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.city_island',
+title: 'NYPL - City Island',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=17',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.clason\'s_point',
+title: 'NYPL - Clason\'s Point',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=18',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.columbus',
+title: 'NYPL - Columbus',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=19',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.countee_cullen',
+title: 'NYPL - Countee Cullen',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=20',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.dongan_hills',
+title: 'NYPL - Dongan Hills',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=21',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.eastchester',
+title: 'NYPL - Eastchester',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=23',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.edenwald',
+title: 'NYPL - Edenwald',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=24',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.epiphany',
+title: 'NYPL - Epiphany',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=25',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.fort_washington',
+title: 'NYPL - Fort Washington',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=26',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.francis_martin',
+title: 'NYPL - Francis Martin',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=27',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.george_bruce',
+title: 'NYPL - George Bruce',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=28',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.grand_central',
+title: 'NYPL - Grand Central',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=29',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.grand_concourse',
+title: 'NYPL - Grand Concourse',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=30',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.great_kills',
+title: 'NYPL - Great Kills',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=31',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.hamilton_fish_park',
+title: 'NYPL - Hamilton Fish Park',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=32',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.hamilton_grange',
+title: 'NYPL - Hamilton Grange',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=33',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.harlem',
+title: 'NYPL - Harlem',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=34',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.hudson_park',
+title: 'NYPL - Hudson Park',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=36',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.huguenot_park',
+title: 'NYPL - Huguenot Park',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=37',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.hunt\'s_point',
+title: 'NYPL - Hunt\'s Point',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=39',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.inwood',
+title: 'NYPL - Inwood',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=40',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.jefferson_market',
+title: 'NYPL - Jefferson Market',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=41',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.jerome_park',
+title: 'NYPL - Jerome Park',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=42',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.kingsbridge',
+title: 'NYPL - Kingsbridge',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=43',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.kips_bay',
+title: 'NYPL - Kips Bay',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=44',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.macomb\'s_bridge',
+title: 'NYPL - Macomb\'s Bridge',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=45',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.melrose',
+title: 'NYPL - Melrose',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=47',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.mid-manhattan',
+title: 'NYPL - Mid-Manhattan',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=48',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.morningside_heights',
+title: 'NYPL - Morningside Heights',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=49',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.morris_park',
+title: 'NYPL - Morris Park',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=50',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.morrisania',
+title: 'NYPL - Morrisania',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=51',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.mosholu',
+title: 'NYPL - Mosholu',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=52',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.mott_haven',
+title: 'NYPL - Mott Haven',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=53',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.muhlenberg',
+title: 'NYPL - Muhlenberg',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=54',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.mulberry_street',
+title: 'NYPL - Mulberry Street',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=55',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.new_amsterdam',
+title: 'NYPL - New Amsterdam',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=56',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.new_dorp',
+title: 'NYPL - New Dorp',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=57',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.ottendorfer',
+title: 'NYPL - Ottendorfer',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=58',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.parkchester',
+title: 'NYPL - Parkchester',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=59',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.pelham_bay',
+title: 'NYPL - Pelham Bay',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=60',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.performing_arts',
+title: 'NYPL - Performing Arts',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=61',
+dont: '0967865204',
+have: '0321015770',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.port_richmond',
+title: 'NYPL - Port Richmond',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=62',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.richmondtown',
+title: 'NYPL - Richmondtown',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=63',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.riverdale',
+title: 'NYPL - Riverdale',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=64',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.riverside',
+title: 'NYPL - Riverside',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=65',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.roosevelt_island',
+title: 'NYPL - Roosevelt Island',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=66',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.schomburg_center',
+title: 'NYPL - Schomburg Center',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=67',
+dont: '0967865204',
+have: '0439129710',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.sedgwick',
+title: 'NYPL - Sedgwick',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=69',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.seward_park',
+title: 'NYPL - Seward Park',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=70',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.sibl',
+title: 'NYPL - SIBL',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=68',
+dont: '0967865204',
+have: '0321168828',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.soundview',
+title: 'NYPL - Soundview',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=71',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.south_beach',
+title: 'NYPL - South Beach',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=72',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.spuyten_duyvil',
+title: 'NYPL - Spuyten Duyvil',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=73',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.st._george',
+title: 'NYPL - St. George',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=75',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.stapleton',
+title: 'NYPL - Stapleton',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=76',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.stephen_a._schwarzman_building',
+title: 'NYPL - Stephen A. Schwarzman Building',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=38',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.terence_cardinal_cooke-cathedral',
+title: 'NYPL - Terence Cardinal Cooke-Cathedral',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=77',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.throgs_neck',
+title: 'NYPL - Throgs Neck',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=78',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.todt_hill-westerleigh',
+title: 'NYPL - Todt Hill-Westerleigh',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=79',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.tompkins_square',
+title: 'NYPL - Tompkins Square',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=80',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.tottenville',
+title: 'NYPL - Tottenville',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=81',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.tremont',
+title: 'NYPL - Tremont',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=82',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.van_cortlandt',
+title: 'NYPL - Van Cortlandt',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=83',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.van_nest',
+title: 'NYPL - Van Nest',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=84',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.wakefield',
+title: 'NYPL - Wakefield',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=85',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.washington_heights',
+title: 'NYPL - Washington Heights',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=86',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.webster',
+title: 'NYPL - Webster',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=87',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.west_farms',
+title: 'NYPL - West Farms',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=88',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.west_new_brighton',
+title: 'NYPL - West New Brighton',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=89',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.westchester_square',
+title: 'NYPL - Westchester Square',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=90',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.woodlawn_heights',
+title: 'NYPL - Woodlawn Heights',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=91',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.woodstock',
+title: 'NYPL - Woodstock',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=92',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.yorkville',
+title: 'NYPL - Yorkville',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=93',
+dont: '0967865204',
+have: '0545139708',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.nypl.dance_research_collection',
+title: 'NYPL - Dance Research Collection',
+link: 'http://catalog.nypl.org/search/i?SEARCH=#{ISBN},&sortdropdown=-&searchscope=99',
+dont: '0967865204',
+have: '0439309158',
+missing: 'No matches found'
+},
+
+{
+     name: 'us.ma.minuteman_library_network',
+     title: 'MA - Minuteman Library Network',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=1',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.acton_memorial',
+     title: 'MA - Acton Memorial Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=3',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.arlington_robbins',
+     title: 'MA - Arlington\'s Robbins Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=4',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.ashland_public',
+     title: 'MA - Ashland Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=5',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+
+{
+     name: 'us.ma.bedford_public',
+     title: 'MA - Bedford Free Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=6',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.belmont_public',
+     title: 'MA - Belmont Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=7',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.brookline_public',
+     title: 'MA - Brookline\'s Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=8',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.cambridge_public',
+     title: 'MA - Cambridge Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=9',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.concord_public',
+     title: 'MA - Concord Free Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=10',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.dean_college_anderson',
+     title: 'MA - Dean College - Anderson Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=11',
+     have: '0060528427',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.dedham_public',
+     title: 'MA - Dedham Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=12',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.dover_town',
+     title: 'MA - Dover Town Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=13',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.framingham_public',
+     title: 'MA - Framingham Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=14',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.framingham_state_whittemore',
+     title: 'MA - Framingham State College - Whittemore Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=15',
+     have: '038551445X',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.franklin_public_library',
+     title: 'MA - Franklin Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=16',
+     have: '0394900014',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.holliston_public',
+     title: 'MA - Holliston Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=17',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.lasell_college_brennan',
+     title: 'MA - Lasell College - Brennan Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=18',
+     have: '0060838655',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.lexington_cary',
+     title: 'MA - Lexington - Cary Memorial',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=19',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.lincoln_public',
+     title: 'MA - Lincoln Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=20',
+     have: '038551445X',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.massbay_community_perkins',
+     title: 'MA - MassBay Community College - Perkins Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=21',
+     have: '0060194480',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.maynard_public',
+     title: 'MA - Maynard Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=22',
+     have: '038551445X',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.medfield_public',
+     title: 'MA - Medfield Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=23',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.medford_public',
+     title: 'MA - Medford Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=24',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.medway_public',
+     title: 'MA - Medway Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=25',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.millis_public',
+     title: 'MA - Millis Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=26',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.mountidacollege_wadsworth',
+     title: 'MA - Mount Ida College - Wadsworth Learnning Resource Center',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=27',
+     have: '0394900014',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.natick_morse',
+     title: 'MA - Natick\'s Morse Institute Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=28',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.needham_public',
+     title: 'MA - Needham Free Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=29',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.newbury_college',
+     title: 'MA - Newbury College Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=30',
+     have: '0060907924',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.newton_free',
+     title: 'MA - Newton Free Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=31',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.norwood_morrill',
+     title: 'MA - Norwood\'s Morrill Memorial Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=32',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.pinemanorcollege_annenberg',
+     title: 'MA - Pine Manor College - Annenberg Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=44',
+     have: '0060926430',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.somerville_public',
+     title: 'MA - Somerville Public',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=33',
+     have: '0394900014',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.stow_randall',
+     title: 'MA - Stow\'s Randall Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=34',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.sudbury_goodnow',
+     title: 'MA - Sudbury\'s Goodnow Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=35',
+     have: '0394900014',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.waltham_public',
+     title: 'MA - Waltham Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=36',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.watertown_public',
+     title: 'MA - Watertown Free Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=37',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.wayland_public',
+     title: 'MA - Wayland Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=38',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.wellesley_free',
+     title: 'MA - Wellesley Free Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=39',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.weston_public',
+     title: 'MA - Weston Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=40',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.westwood_public',
+     title: 'MA - Westwood Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=41',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.winchester_public',
+     title: 'MA - Winchester Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=42',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ma.woburn_public',
+     title: 'MA - Woburn Public Library',
+     link: 'http://library.minlib.net/search/i?SEARCH=#{ISBN}&searchscope=43',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+},
+{
+     name: 'us.ca.humboldt_state_university',
+     title: 'CA - Humboldt State University',
+     link: 'http://voyager.humboldt.edu/vwebv/search?searchArg1=#{ISBN}&argType1=any&searchCode1=ISBN&searchType=2',
+     have: '0826410715',
+     dont: '0966556453',
+     missing: 'Search resulted in no hits.'
+  },
+{
+     name: 'us.mn.stpaul_public_library',
+     title: 'MN - St. Paul Public Library',
+     link: 'http://alpha.stpaul.lib.mn.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=16',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found'
+  },
+  {
+     name: 'us.mn.hennepin_county_library',
+     title: 'NM - Hennepin County Library',
+     link: 'https://catalog.hclib.org/ipac20/ipac.jsp?menu=search&index=ISBN&term=#{ISBN}',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'could not find anything matching'
+  },{
+     name: 'us.mn.ramsey_county_library',
+     title: 'MN - Ramsey County Library',
+     link: 'http://ipac.ramsey.lib.mn.us/ipac20/ipac.jsp?menu=search&x=13&index=ISBNE&term=#{ISBN}',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'could not find anything matching'
+  },
+{
+	name: 'us.ca.nv.link_plus_library',
+	title: 'CA - Link+ Libraries',
+	link: 'https://csul.iii.com/search/i?SEARCH=#{ISBN}',
+	have: '0060254920',
+	dont: '9562391418',
+	missing: 'No matches found'
+},
+{
+	name: 'us.ca.claremontcollegeslibrary',
+	title: 'CA - Claremont Colleges Library',
+	link: 'http://blais.claremont.edu/search/i?SEARCH=#{ISBN}',
+	have: '0394831292',
+	dont: '0967865204',
+	missing: 'No matches found'
+},
+{
+     name: 'us.ks.wichita_public_library',
+     title: 'KS - Wichita Public Library',
+     link: 'http://catalog.wichita.lib.ks.us/polaris/search/searchresults.aspx?ctx=1.1033.0.0.4&type=Advanced&term=#{ISBN}&by=ISBN&bool1=And&sort=RELEVANCE&page=0',
+     dont: '0967865204',
+     have: '0374299102',
+     missing: 'Check your search text'
+},
+{
+     name: 'us.ks.wichita_state_university_libraries',
+     title: 'KS - Wichita State University Libraries',
+     link: 'http://libcat.wichita.edu/cgi-bin/Pwebrecon.cgi?SAB1=#{ISBN}&FLD1=ISBN+%28ISBN%29&CNT=10&HIST=1',
+     dont: '0151012237',
+     have: '0374153892',
+     missing: 'Your search resulted in no hits'
+},
+{
      name: 'us.al.florence_lauderdale_public_library',
      title: 'AL - Florence-Lauderdale Public Library',
      link: 'http://catalog.flpl.lib.al.us/polaris/search/searchresults.aspx?type=Default&by=ISBN&term=#{ISBN}',
@@ -6166,6 +7287,6 @@ var libraries = [
 	     dont: '0967865204',
 	     have: '0439786770',
 	     missing: 'found no matches'
-	},
+	}
 
   ];
