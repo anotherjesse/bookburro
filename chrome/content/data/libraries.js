@@ -14,6 +14,15 @@
 
 
 var libraries = [
+
+{
+name: 'us.ca.humboldt_county_library',
+title: 'CA - Humboldt County Library',
+link: 'http://libcat.co.humboldt.ca.us/search/?SORT=D&searchscope=13&searchtype=i&searcharg=#{ISBN}',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
 {
 name: 'us.ny.nypl.entire_collection',
 title: 'NYPL - Entire Collection',
