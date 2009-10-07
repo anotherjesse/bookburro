@@ -14,7 +14,102 @@
 
 
 var libraries = [
-
+{
+	name:'us.ut.davis_county_library_system_all',
+	title: 'AAA - UT - Davis County Library System - All',
+	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.ut.davis_county_library_system_centerville_branch',
+	title: 'AAA - UT - Davis County Library System - Centerville Branch',
+	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CTV',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.ut.davis_county_library_system_central_branch_layton',
+	title: 'AAA - UT - Davis County Library System - Central Branch/Layton',
+	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CE',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{	
+	name:'us.ut.davis_county_library_system_headquarters_farmington',
+	title: 'AAA - UT - Davis County Library System - Headquarters/Farmington',
+	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=HD',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{	
+	name:'us.ut.davis_county_library_system_kaysville_branch',
+	title: 'AAA - UT - Davis County Library System - Kaysville Branch',
+	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=KYV',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{	
+	name:'us.ut.davis_county_library_system_north_branch_clearfield',
+	title: 'AAA - UT - Davis County Library System - North Branch/Clearfield',
+	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=NOD',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{	
+	name:'us.ut.davis_county_library_system_northwest_branch_syracuse',
+	title: 'AAA - UT - Davis County Library System - Northwest Branch/Syracuse',
+	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SYR',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.ut.davis_county_library_system_south_branch_bountiful',
+	title: 'AAA - UT - Davis County Library System- South Branch/Bountiful',
+	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SOD',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.ca.burbank_public_library_all',
+	title: 'CA - Burbank Public Library - All',
+	link: 'http://66.77.127.97/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.ca.burbank_public_library_buena_vista_branch',
+	title: 'CA - Burbank Public Library - Buena Vista Branch',
+	link: 'http://66.77.127.97/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=BUENAVISTA',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.ca.burbank_public_library_central_library',
+	title: 'CA - Burbank Public Library - Central Library',
+	link: 'http://66.77.127.97/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CENTRAL',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.ca.burbank_public_library_northwest_branch',
+	title: 'CA - Burbank Public Library - Northwest Branch',
+	link: 'http://66.77.127.97/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=NORTHWEST',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
 {
 name: 'us.ca.humboldt_county_library',
 title: 'CA - Humboldt County Library',
