@@ -16,7 +16,7 @@
 var libraries = [
 {
 	name:'us.ut.davis_county_library_system_all',
-	title: 'AAA - UT - Davis County Library System - All',
+	title: 'UT - Davis County Library System - All',
 	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
 	dont: '0967865204',
 	have: '0439136350',
@@ -24,7 +24,7 @@ var libraries = [
 },
 {
 	name:'us.ut.davis_county_library_system_centerville_branch',
-	title: 'AAA - UT - Davis County Library System - Centerville Branch',
+	title: 'UT - Davis County Library System - Centerville Branch',
 	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CTV',
 	dont: '0967865204',
 	have: '0439136350',
@@ -32,7 +32,7 @@ var libraries = [
 },
 {
 	name:'us.ut.davis_county_library_system_central_branch_layton',
-	title: 'AAA - UT - Davis County Library System - Central Branch/Layton',
+	title: 'UT - Davis County Library System - Central Branch/Layton',
 	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CE',
 	dont: '0967865204',
 	have: '0439136350',
@@ -40,7 +40,7 @@ var libraries = [
 },
 {	
 	name:'us.ut.davis_county_library_system_headquarters_farmington',
-	title: 'AAA - UT - Davis County Library System - Headquarters/Farmington',
+	title: 'UT - Davis County Library System - Headquarters/Farmington',
 	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=HD',
 	dont: '0967865204',
 	have: '0439136350',
@@ -48,7 +48,7 @@ var libraries = [
 },
 {	
 	name:'us.ut.davis_county_library_system_kaysville_branch',
-	title: 'AAA - UT - Davis County Library System - Kaysville Branch',
+	title: 'UT - Davis County Library System - Kaysville Branch',
 	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=KYV',
 	dont: '0967865204',
 	have: '0439136350',
@@ -56,7 +56,7 @@ var libraries = [
 },
 {	
 	name:'us.ut.davis_county_library_system_north_branch_clearfield',
-	title: 'AAA - UT - Davis County Library System - North Branch/Clearfield',
+	title: 'UT - Davis County Library System - North Branch/Clearfield',
 	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=NOD',
 	dont: '0967865204',
 	have: '0439136350',
@@ -64,7 +64,7 @@ var libraries = [
 },
 {	
 	name:'us.ut.davis_county_library_system_northwest_branch_syracuse',
-	title: 'AAA - UT - Davis County Library System - Northwest Branch/Syracuse',
+	title: 'UT - Davis County Library System - Northwest Branch/Syracuse',
 	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SYR',
 	dont: '0967865204',
 	have: '0439136350',
@@ -72,7 +72,7 @@ var libraries = [
 },
 {
 	name:'us.ut.davis_county_library_system_south_branch_bountiful',
-	title: 'AAA - UT - Davis County Library System- South Branch/Bountiful',
+	title: 'UT - Davis County Library System- South Branch/Bountiful',
 	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SOD',
 	dont: '0967865204',
 	have: '0439136350',
