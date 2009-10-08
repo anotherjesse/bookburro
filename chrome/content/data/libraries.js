@@ -15,6 +15,190 @@
 
 var libraries = [
 {
+	name:'us.md.montgomery_county_public_libraries_all',
+	title: 'MD - Montgomery County Public Library- All',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=ALL',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_aspen_hill',
+	title: 'MD - Montgomery County Public Library- Aspen Hill',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=ASPEN_HILL',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_bethesda',
+	title: 'MD - Montgomery County Public Library- Bethesda',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=BETHESDA',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_chevy_chase',
+	title: 'MD - Montgomery County Public Library- Chevy Chase',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=CHEVYCHASE',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_chevy_chase',
+	title: 'MD - Montgomery County Public Library- Chevy Chase',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=CHEVYCHASE',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_damascus',
+	title: 'MD - Montgomery County Public Library- Damascus',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=DAMASCUS',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_davis',
+	title: 'MD - Montgomery County Public Library- Davis',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=DAVIS',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_gaithersburg',
+	title: 'MD - Montgomery County Public Library- Gaithersburg',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=GAITHERSBG',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_germantown',
+	title: 'MD - Montgomery County Public Library- Germantown',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=GERMANTOWN',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_kensington_park',
+	title: 'MD - Montgomery County Public Library- Kensington Park',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=KENSINGTON',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_little_falls',
+	title: 'MD - Montgomery County Public Library- Little Falls',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=LITTLEFALL',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_long_branch',
+	title: 'MD - Montgomery County Public Library- Long Branch',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=LONGBRANCH',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_marilyn_j_praisner_fairland',
+	title: 'MD - Montgomery County Public Library- Marilyn J. Praisner (Fairland)',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=PRAISNER',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_noyes',
+	title: 'MD - Montgomery County Public Library- Noyes',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=NOYES',
+	dont: '0967865204',
+	have: '0394839129',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_olney',
+	title: 'MD - Montgomery County Public Library- Olney',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=OLNEY',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_poolesville',
+	title: 'MD - Montgomery County Public Library- Poolesville',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=POOLESVILL',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_potomac',
+	title: 'MD - Montgomery County Public Library- Potomac',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=POTOMAC',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_quince_orchard',
+	title: 'MD - Montgomery County Public Library- Quince Orchard',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=QUINCEORCH',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_rockville',
+	title: 'MD - Montgomery County Public Library- Rockville',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=ROCKVILLE',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_silver_spring',
+	title: 'MD - Montgomery County Public Library- Silver Spring',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=SILVER_SPR',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_twinbrook',
+	title: 'MD - Montgomery County Public Library- Twinbrook',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=TWINBROOK',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_wheaton',
+	title: 'MD - Montgomery County Public Library- Wheaton',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=WHEATON',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.md.montgomery_county_public_libraries_white_oak',
+	title: 'MD - Montgomery County Public Library- White Oak',
+	link: 'http://webcat.montgomerylibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^words+or+phrase&user_id=webserver&password=&library=WHITE_OAK',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
 	name:'us.ut.davis_county_library_system_all',
 	title: 'UT - Davis County Library System - All',
 	link: 'http://168.180.199.11/uhtbin/cgisirsi.exe/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
@@ -1284,7 +1468,7 @@ missing: 'No matches found'
      title: 'AL - DeKalb County',
      link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=30',
      dont: '0373872704',
-     have: '0439136350',
+     have: '039450030X',
      missing: 'No matches found'
 },
 {
@@ -1292,7 +1476,7 @@ missing: 'No matches found'
      title: 'AL - DeKalb County Juvenile',
      link: 'http://www.lmn.lib.al.us/search/i?#{ISBN}&searchscope=31',
      dont: '0373872704',
-     have: '0439136350',
+     have: '0385903812',
      missing: 'No matches found'
 },
 {
