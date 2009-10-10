@@ -14,6 +14,46 @@
 
 var libraries = [
 	{
+		name:'us.az.phoenix_public_library',
+		title: 'AZ - Phoenix Public Library',
+		link: 'http://www.phoenixpubliclibrary.org/advsearch.jsp?view=full&N=0&ISBN=#{ISBN}',
+		dont: '0967865204',
+		have: '0306817438',
+		missing: 'No results were found'
+	},
+	{
+		name:'us.az.scottsdale_public_library',
+		title: 'AZ - Scottsdale Public Library',
+		link: 'http://encore.scottsdaleaz.gov/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&submitmode=&submitname=&target=#{ISBN}',
+		dont: '0967865204',
+		have: '0590353403',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.az.tempe_public_library',
+		title: 'AZ - Tempe Public Library',
+		link: 'http://catalog.tempe.gov/search/i?#{ISBN}',
+		dont: '0967865204',
+		have: '0306817438',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.az.city_of_mesa_library',
+		title: 'AZ - City of Mesa Library',
+		link: 'http://cat.mesalibrary.org:8080/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
+		dont: '0967865204',
+		have: '0306817438',
+		missing: 'Sorry, could not find anything matching'
+	},
+	{
+		name:'us.az.glendale_public_library',
+		title: 'AZ - Glendale Public Library',
+		link: 'http://www.glendalelibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
+		dont: '0967865204',
+		have: '0306817438',
+		missing: 'Sorry, could not find anything matching'
+	},
+	{
 		name:'us.va.prince_william_library',
 		title: 'VA - Prince William Library',
 		link: 'http://librarycatalog.pwcgov.org/ipac20/ipac.jsp?menu=search&x=0&y=0&aspect=subtab13&index=ISBNEX&term=#{ISBN}',
