@@ -14,6 +14,30 @@
 
 var libraries = [
 	{
+		name:'us.ca.monterey_public_library',
+		title: 'CA - Monterey Public Library - All',
+		link: 'http://montn.ci.monterey.ca.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=9',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.ca.monterey_public_library_monterey',
+		title: 'CA - Monterey Public Library - Monterey',
+		link: 'http://montn.ci.monterey.ca.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=1',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.ca.monterey_public_library_pacific_grove',
+		title: 'CA - Monterey Public Library - Pacific Grove',
+		link: 'http://montn.ci.monterey.ca.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=2',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
 		name:'us.sc.charleston_county_public_library',
 		title: 'SC - Charleston County Public Library - All',
 		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
