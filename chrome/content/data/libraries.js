@@ -14,6 +14,142 @@
 
 var libraries = [
 	{
+		name:'us.va.prince_william_library',
+		title: 'VA - Prince William Library',
+		link: 'http://librarycatalog.pwcgov.org/ipac20/ipac.jsp?menu=search&x=0&y=0&aspect=subtab13&index=ISBNEX&term=#{ISBN}',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'Sorry, could not find anything matching'
+	},
+	{
+		name:'us.fl.orange_county_all',
+		title: 'FL - Orange County Public Library - All',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=1',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_main',
+		title: 'FL - Orange County Public Library - Main Library',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=2',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_alafaya',
+		title: 'FL - Orange County Public Library - Alafaya',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=3',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_edgewater',
+		title: 'FL - Orange County Public Library - Edgewater',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=4',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_herndon',
+		title: 'FL - Orange County Public Library - Herndon',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=5',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_hiawassee',
+		title: 'FL - Orange County Public Library - Hiawassee',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=6',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_north_orange',
+		title: 'FL - Orange County Public Library - North Orange',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=7',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_south_trail',
+		title: 'FL - Orange County Public Library - South Trail',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=8',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_southeast',
+		title: 'FL - Orange County Public Library - Southeast',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=9',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_southwest',
+		title: 'FL - Orange County Public Library - Southwest',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=10',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_south_creek',
+		title: 'FL - Orange County Public Library - South Creek',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=11',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_washington_park',
+		title: 'FL - Orange County Public Library - Washington Park',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=12',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_west_oaks',
+		title: 'FL - Orange County Public Library - West Oaks',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=14',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_windermere',
+		title: 'FL - Orange County Public Library - Windermere',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=15',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_winter_garden',
+		title: 'FL - Orange County Public Library - Winter Garden',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=13',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
+		name:'us.fl.orange_county_eatonville',
+		title: 'FL - Orange County Public Library - Eatonville',
+		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=17',
+		dont: '0967865204',
+		have: '0439136350',
+		missing: 'No matches found'
+	},
+	{
 		name:'us.ca.monterey_public_library',
 		title: 'CA - Monterey Public Library - All',
 		link: 'http://montn.ci.monterey.ca.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=9',
