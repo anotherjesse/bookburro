@@ -183,7 +183,9 @@ var stores = [
 	//<span class="adPrice" style="font-size:11px"><b>$11.20</b></span>
 	// <td style="padding-top:1px;line-height:15px;" align="center"><nobr><b>Our Low Price: </b><span class="adPrice"><b>$28.34</b></span>&nbsp; </nobr></td>
 	// <td align="center"><b>Low Price: </b><b class='adPrice'>$8.48</b></td></tr></table></div></td>
-	var price = req.responseText.match(/See more matches<\/a><\/td><\/tr><tr><td[^>]*><table[^>]*><tr><td[^>]*> <a[^>]*>Buy new<\/a>: <span[^>]*class=['"]+adPrice['"]+[^>]*>[<b>]*(\$[0-9.]*)<\/b><\/span>/);
+
+//See more matches<\/a></td></tr><tr><td colspan="2"><table border="0" cellpadding="0" cellspacing="0"><tr><td style="padding-bottom:2px"> <a href="/prod/that-old-cape-magic/q/loc/106/211143748.html" class="standardText" style="font-size:11px">Buy new</a>: <span style="font-size:11px; text-decoration: line-through">$25.95</span> <span class="adPrice" style="font-size:11px"><b>$16.14</b>      																				
+	var price = req.responseText.match(/See more matches<\/a><\/td><\/tr><tr><td[^>]*><table[^>]*><tr><td[^>]*> <a[^>]*>Buy new<\/a>: (?:<span [^>]*line-through['"]+>\$[0-9.]*<\/span> )?<span[^>]*class=['"]+adPrice['"]+[^>]*>[<b>]*(\$[0-9.]*)<\/b>/);
       if (price) {
         return price[1];
       } else { 
