@@ -13,342 +13,342 @@
 
 
 var libraries = [
-	{
-		name:'us.az.phoenix_public_library',
-		title: 'AZ - Phoenix Public Library',
-		link: 'http://www.phoenixpubliclibrary.org/advsearch.jsp?view=full&N=0&ISBN=#{ISBN}',
-		dont: '0967865204',
-		have: '0306817438',
-		missing: 'No results were found'
-	},
-	{
-		name:'us.az.scottsdale_public_library',
-		title: 'AZ - Scottsdale Public Library',
-		link: 'http://encore.scottsdaleaz.gov/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&submitmode=&submitname=&target=#{ISBN}',
-		dont: '0967865204',
-		have: '0590353403',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.az.tempe_public_library',
-		title: 'AZ - Tempe Public Library',
-		link: 'http://catalog.tempe.gov/search/i?#{ISBN}',
-		dont: '0967865204',
-		have: '0306817438',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.az.city_of_mesa_library',
-		title: 'AZ - City of Mesa Library',
-		link: 'http://cat.mesalibrary.org:8080/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
-		dont: '0967865204',
-		have: '0306817438',
-		missing: 'Sorry, could not find anything matching'
-	},
-	{
-		name:'us.az.glendale_public_library',
-		title: 'AZ - Glendale Public Library',
-		link: 'http://www.glendalelibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
-		dont: '0967865204',
-		have: '0306817438',
-		missing: 'Sorry, could not find anything matching'
-	},
-	{
-		name:'us.va.prince_william_library',
-		title: 'VA - Prince William Library',
-		link: 'http://librarycatalog.pwcgov.org/ipac20/ipac.jsp?menu=search&x=0&y=0&aspect=subtab13&index=ISBNEX&term=#{ISBN}',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'Sorry, could not find anything matching'
-	},
-	{
-		name:'us.fl.orange_county_all',
-		title: 'FL - Orange County Public Library - All',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=1',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_main',
-		title: 'FL - Orange County Public Library - Main Library',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=2',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_alafaya',
-		title: 'FL - Orange County Public Library - Alafaya',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=3',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_edgewater',
-		title: 'FL - Orange County Public Library - Edgewater',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=4',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_herndon',
-		title: 'FL - Orange County Public Library - Herndon',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=5',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_hiawassee',
-		title: 'FL - Orange County Public Library - Hiawassee',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=6',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_north_orange',
-		title: 'FL - Orange County Public Library - North Orange',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=7',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_south_trail',
-		title: 'FL - Orange County Public Library - South Trail',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=8',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_southeast',
-		title: 'FL - Orange County Public Library - Southeast',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=9',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_southwest',
-		title: 'FL - Orange County Public Library - Southwest',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=10',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_south_creek',
-		title: 'FL - Orange County Public Library - South Creek',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=11',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_washington_park',
-		title: 'FL - Orange County Public Library - Washington Park',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=12',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_west_oaks',
-		title: 'FL - Orange County Public Library - West Oaks',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=14',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_windermere',
-		title: 'FL - Orange County Public Library - Windermere',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=15',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_winter_garden',
-		title: 'FL - Orange County Public Library - Winter Garden',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=13',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.fl.orange_county_eatonville',
-		title: 'FL - Orange County Public Library - Eatonville',
-		link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=17',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.ca.monterey_public_library',
-		title: 'CA - Monterey Public Library - All',
-		link: 'http://montn.ci.monterey.ca.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=9',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.ca.monterey_public_library_monterey',
-		title: 'CA - Monterey Public Library - Monterey',
-		link: 'http://montn.ci.monterey.ca.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=1',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.ca.monterey_public_library_pacific_grove',
-		title: 'CA - Monterey Public Library - Pacific Grove',
-		link: 'http://montn.ci.monterey.ca.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=2',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'No matches found'
-	},
-	{
-		name:'us.sc.charleston_county_public_library',
-		title: 'SC - Charleston County Public Library - All',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_cooper_river',
-		title: 'SC - Charleston County Public Library - Cooper River',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=COOPER_RIV',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_dorchester_road',
-		title: 'SC - Charleston County Public Library - Dorchester Road',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=DORCHESTER',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_edisto',
-		title: 'SC - Charleston County Public Library - Edisto',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=EDISTO',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_folly_beach',
-		title: 'SC - Charleston County Public Library - Folly Beach',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=FOLLY',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_james_island',
-		title: 'SC - Charleston County Public Library - James Island',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=JAMES_IS',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_john_l_dart',
-		title: 'SC - Charleston County Public Library - John L. Dart Library',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=DART',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_johns_island',
-		title: 'SC - Charleston County Public Library - John\'s Island',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=JOHNS_IS',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_main',
-		title: 'SC - Charleston County Public Library - Main',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MAIN',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_mcClellanville',
-		title: 'SC - Charleston County Public Library - McClellanville',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MCC_VILLE',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_mt_pleasant',
-		title: 'SC - Charleston County Public Library - Mt. Pleasant',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MT_PLEASNT',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_otranto_road',
-		title: 'SC - Charleston County Public Library - Otranto Road',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=OTRANTO',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_poe_branch',
-		title: 'SC - Charleston County Public Library - Poe Branch',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=POE',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_st_andrews',
-		title: 'SC - Charleston County Public Library - St. Andrews',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ST_ANDREWS',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_st_pauls_hollywood',
-		title: 'SC - Charleston County Public Library - St. Paul\'s / Hollywood',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ST_PAULS',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_village',
-		title: 'SC - Charleston County Public Library - Village',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=VILLAGE',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
-	{
-		name:'us.sc.charleston_county_public_library_west_ashley ',
-		title: 'SC - Charleston County Public Library - West Ashley',
-		link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=WST_ASHLEY',
-		dont: '0967865204',
-		have: '0439136350',
-		missing: 'found no matches'
-	},
+{
+	name:'us.az.phoenix_public_library',
+	title: 'AZ - Phoenix Public Library',
+	link: 'http://www.phoenixpubliclibrary.org/advsearch.jsp?view=full&N=0&ISBN=#{ISBN}',
+	dont: '0967865204',
+	have: '0306817438',
+	missing: 'No results were found'
+},
+{
+	name:'us.az.scottsdale_public_library',
+	title: 'AZ - Scottsdale Public Library',
+	link: 'http://encore.scottsdaleaz.gov/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&submitmode=&submitname=&target=#{ISBN}',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'no results found'
+},
+{
+	name:'us.az.tempe_public_library',
+	title: 'AZ - Tempe Public Library',
+	link: 'http://catalog.tempe.gov/search/i?#{ISBN}',
+	dont: '0967865204',
+	have: '0306817438',
+	missing: 'No matches found'
+},
+{
+	name:'us.az.city_of_mesa_library',
+	title: 'AZ - City of Mesa Library',
+	link: 'http://cat.mesalibrary.org:8080/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
+	dont: '0967865204',
+	have: '0306817438',
+	missing: 'Sorry, could not find anything matching'
+},
+{
+	name:'us.az.glendale_public_library',
+	title: 'AZ - Glendale Public Library',
+	link: 'http://www.glendalelibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
+	dont: '0967865204',
+	have: '0306817438',
+	missing: 'Sorry, could not find anything matching'
+},
+{
+	name:'us.va.prince_william_library',
+	title: 'VA - Prince William Library',
+	link: 'http://librarycatalog.pwcgov.org/ipac20/ipac.jsp?menu=search&x=0&y=0&aspect=subtab13&index=ISBNEX&term=#{ISBN}',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'Sorry, could not find anything matching'
+},
+{
+	name:'us.fl.orange_county_all',
+	title: 'FL - Orange County Public Library - All',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=1',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_main',
+	title: 'FL - Orange County Public Library - Main Library',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=2',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_alafaya',
+	title: 'FL - Orange County Public Library - Alafaya',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=3',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_edgewater',
+	title: 'FL - Orange County Public Library - Edgewater',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=4',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_herndon',
+	title: 'FL - Orange County Public Library - Herndon',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=5',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_hiawassee',
+	title: 'FL - Orange County Public Library - Hiawassee',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=6',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_north_orange',
+	title: 'FL - Orange County Public Library - North Orange',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=7',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_south_trail',
+	title: 'FL - Orange County Public Library - South Trail',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=8',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_southeast',
+	title: 'FL - Orange County Public Library - Southeast',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=9',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_southwest',
+	title: 'FL - Orange County Public Library - Southwest',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=10',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_south_creek',
+	title: 'FL - Orange County Public Library - South Creek',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=11',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_washington_park',
+	title: 'FL - Orange County Public Library - Washington Park',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=12',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_west_oaks',
+	title: 'FL - Orange County Public Library - West Oaks',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=14',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_windermere',
+	title: 'FL - Orange County Public Library - Windermere',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=15',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_winter_garden',
+	title: 'FL - Orange County Public Library - Winter Garden',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=13',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.fl.orange_county_eatonville',
+	title: 'FL - Orange County Public Library - Eatonville',
+	link: 'http://iii.ocls.info/search/a?a&searchtype=i&searcharg=#{ISBN}&searchscope=17',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.ca.monterey_public_library',
+	title: 'CA - Monterey Public Library - All',
+	link: 'http://montn.ci.monterey.ca.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=9',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.ca.monterey_public_library_monterey',
+	title: 'CA - Monterey Public Library - Monterey',
+	link: 'http://montn.ci.monterey.ca.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=1',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.ca.monterey_public_library_pacific_grove',
+	title: 'CA - Monterey Public Library - Pacific Grove',
+	link: 'http://montn.ci.monterey.ca.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=2',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
+	name:'us.sc.charleston_county_public_library',
+	title: 'SC - Charleston County Public Library - All',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_cooper_river',
+	title: 'SC - Charleston County Public Library - Cooper River',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=COOPER_RIV',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_dorchester_road',
+	title: 'SC - Charleston County Public Library - Dorchester Road',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=DORCHESTER',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_edisto',
+	title: 'SC - Charleston County Public Library - Edisto',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=EDISTO',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_folly_beach',
+	title: 'SC - Charleston County Public Library - Folly Beach',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=FOLLY',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_james_island',
+	title: 'SC - Charleston County Public Library - James Island',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=JAMES_IS',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_john_l_dart',
+	title: 'SC - Charleston County Public Library - John L. Dart Library',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=DART',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_johns_island',
+	title: 'SC - Charleston County Public Library - John\'s Island',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=JOHNS_IS',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_main',
+	title: 'SC - Charleston County Public Library - Main',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MAIN',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_mcClellanville',
+	title: 'SC - Charleston County Public Library - McClellanville',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MCC_VILLE',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_mt_pleasant',
+	title: 'SC - Charleston County Public Library - Mt. Pleasant',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MT_PLEASNT',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_otranto_road',
+	title: 'SC - Charleston County Public Library - Otranto Road',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=OTRANTO',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_poe_branch',
+	title: 'SC - Charleston County Public Library - Poe Branch',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=POE',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_st_andrews',
+	title: 'SC - Charleston County Public Library - St. Andrews',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ST_ANDREWS',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_st_pauls_hollywood',
+	title: 'SC - Charleston County Public Library - St. Paul\'s / Hollywood',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ST_PAULS',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_village',
+	title: 'SC - Charleston County Public Library - Village',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=VILLAGE',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.sc.charleston_county_public_library_west_ashley ',
+	title: 'SC - Charleston County Public Library - West Ashley',
+	link: 'http://192.152.249.232/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=WST_ASHLEY',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
 {
 	name:'us.md.montgomery_county_public_libraries_all',
 	title: 'MD - Montgomery County Public Library- All',
