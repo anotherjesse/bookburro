@@ -14,6 +14,14 @@
 
 var libraries = [
 {
+name: 'us.oh.columbus_metropolitan_library',
+title: 'OH - Columbus Metropolitan Library',
+link: 'http://catalog.columbuslibrary.org/result.ashx?q=#{ISBN}',
+have: '0394839129',
+dont: '0967865204',
+missing: 'No results found'
+},
+{
 name: 'us.wi.madison_public_library',
 title: 'WI - South Central Library System',
 link: 'http://www.linkcat.info/ipac20/ipac.jsp?menu=search&term=#{ISBN}&index=CISBN',
