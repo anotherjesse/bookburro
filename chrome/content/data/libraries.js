@@ -14,6 +14,14 @@
 
 var libraries = [
 {
+	name:'us.il.homewood_public_library',
+	title: 'IL - Homewood Public Library',
+	link: 'http://swan.mls.lib.il.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=1',
+	dont: '0967865204',
+	have: '0394839129',
+	missing: 'No matches found'
+},
+{
 name: 'us.oh.columbus_metropolitan_library',
 title: 'OH - Columbus Metropolitan Library',
 link: 'http://catalog.columbuslibrary.org/result.ashx?q=#{ISBN}',
