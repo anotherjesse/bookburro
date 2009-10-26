@@ -4,7 +4,7 @@
   <RDF:Description RDF:about="urn:mozilla:install-manifest">
     <em:name>Book Burro</em:name>
     <em:id>{c7d1f80d-de65-49ee-852b-2b00b3b19a5d}</em:id>
-    <em:version>0.7</em:version>
+    <em:version>0.71</em:version>
     <em:description>Your Book Browsing Companion</em:description>
     <em:creator>Jesse Andrews; http://overstimulate.com</em:creator>
     <em:homepageURL>http://www.bookburro.org</em:homepageURL>
