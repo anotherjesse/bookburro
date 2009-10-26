@@ -1,4 +1,4 @@
-/*
+/*	
 * Copyright 2005-2009 Jesse Andrews
 *
 * This file may be used under the terms of of the
@@ -93,6 +93,38 @@ var stores = [
     }
   },
   {
+    name: 'betterworldbooksnew',
+    title: 'Better World Books - New',
+    query: "http://www.betterworldbooks.com/service.aspx?ItemId=#{ISBN_UPCASE}",
+    link: 'http://www.betterworldbooks.com/detail.aspx?ItemId=#{ISBN_UPCASE}',
+    process: function(req) {
+      var prices = req.responseXML.getElementsByTagName('LowestNewPrice');
+      var priceReturn;
+      for (var i=0; i<prices.length; i++) {
+        if (prices[i].parentNode.nodeName == 'OfferSummary') {
+          priceReturn = prices[i].childNodes[0].nodeValue;
+        }
+      }
+      return priceReturn;
+    }
+  },
+  {
+    name: 'betterworldbooksused',
+    title: 'Better World Books - Used',
+    query: "http://www.betterworldbooks.com/service.aspx?ItemId=#{ISBN_UPCASE}",
+    link: 'http://www.betterworldbooks.com/detail.aspx?ItemId=#{ISBN_UPCASE}',
+    process: function(req) {
+      var prices = req.responseXML.getElementsByTagName('LowestUsedPrice');
+      var priceReturn;
+      for (var i=0; i<prices.length; i++) {
+        if (prices[i].parentNode.nodeName == 'OfferSummary') {
+          priceReturn = prices[i].childNodes[0].nodeValue;
+        }
+      }
+      return priceReturn;
+    }
+  },
+{
     name: 'amazon',
     title: 'Amazon',
     affiliate_link: "http://www.amazon.com/exec/obidos/ASIN/#{ISBN_UPCASE}/bookburro-20",
