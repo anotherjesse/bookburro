@@ -14,6 +14,23 @@
 
 var libraries = [
 {
+	name:'us.ca.sonoma_county',
+	title: 'CA - Sanoma County',
+	link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&term=#{ISBN}&index=ISBNEX',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'Sorry, could not find anything matching'
+},
+{
+
+	name:'us.co.jefferson_county_public_library',
+	title: 'CO - Jefferson County Public Library',
+	link: 'http://sable.jefferson.lib.co.us/search/?searchtype=i&searcharg=#{ISBN}&SORT=D&searchscope=9',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'No matches found'
+},
+{
 	name:'us.il.homewood_public_library',
 	title: 'IL - Homewood Public Library',
 	link: 'http://swan.mls.lib.il.us/search/i?SEARCH=#{ISBN}&sortdropdown=-&searchscope=1',
