@@ -14,6 +14,22 @@
 
 var libraries = [
 {
+	name:'us.ca.el_dorado_county_library',
+	title: 'CA - El Dorado County Library',
+	link: 'http://ibistro.eldoradolibrary.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+	dont: '0967865204',
+	have: '0140366792',
+	missing: 'found no matches'
+},
+{
+	name:'us.ca.folsom_public_library',
+	title: 'CA - Folsom Public Library',
+	link: 'http://www.saclibrarycatalog.org/search~S51/a?searchtype=i&searchscope=50&searcharg=#{ISBN}&Submit=Search',
+	dont: '0967865204',
+	have: '014132256X',
+	missing: 'No matches found'
+},
+{
 	name:'us.ca.sonoma_county',
 	title: 'CA - Sanoma County',
 	link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&term=#{ISBN}&index=ISBNEX',
@@ -22,7 +38,6 @@ var libraries = [
 	missing: 'Sorry, could not find anything matching'
 },
 {
-
 	name:'us.co.jefferson_county_public_library',
 	title: 'CO - Jefferson County Public Library',
 	link: 'http://sable.jefferson.lib.co.us/search/?searchtype=i&searcharg=#{ISBN}&SORT=D&searchscope=9',
