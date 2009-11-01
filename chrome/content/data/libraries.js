@@ -14,6 +14,1302 @@
 
 var libraries = [
 {
+name:'us.il.chicago_all_swan_libraries',
+title: 'IL - Chicago All SWAN Libraries',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=1',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_acorn',
+title: 'IL - Chicago Acorn',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=2',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_acorn_juvenile',
+title: 'IL - Chicago Acorn Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=3',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_alsip_merrionette_park',
+title: 'IL - Chicago Alsip-Merrionette Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=4',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_alsip_merrionette_park_juvenile',
+title: 'IL - Chicago Alsip-Merrionette Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=5',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_bedford_park',
+title: 'IL - Chicago Bedford Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=8',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_bedford_park_juvenile',
+title: 'IL - Chicago Bedford Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=9',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_beecher',
+title: 'IL - Chicago Beecher',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=10',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_beecher_juvenile',
+title: 'IL - Chicago Beecher Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=11',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_bellwood',
+title: 'IL - Chicago Bellwood',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=12',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_bellwood_juvenile',
+title: 'IL - Chicago Bellwood Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=13',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_berkeley',
+title: 'IL - Chicago Berkeley',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=14',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_berkeley_juvenile',
+title: 'IL - Chicago Berkeley Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=15',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_berwyn',
+title: 'IL - Chicago Berwyn',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=16',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_berwyn_juvenile',
+title: 'IL - Chicago Berwyn Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=17',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_blue_island',
+title: 'IL - Chicago Blue Island',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=18',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_blue_island_juvenile',
+title: 'IL - Chicago Blue Island Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=19',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_bridgeview',
+title: 'IL - Chicago Bridgeview',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=110',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_bridgeview_juvenile',
+title: 'IL - Chicago Bridgeview Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=120',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_broadview',
+title: 'IL - Chicago Broadview',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=20',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_broadview_juvenile',
+title: 'IL - Chicago Broadview Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=21',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_brookfieldpl',
+title: 'IL - Chicago BrookfieldPL',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=89',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_brookfieldpl_juvenile',
+title: 'IL - Chicago BrookfieldPL Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=90',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_brookfield_zoo',
+title: 'IL - Chicago Brookfield Zoo',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=22',
+dont: '0967865204',
+have: '0394831284',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_brookfield_zoo_education',
+title: 'IL - Chicago Brookfield Zoo Education',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=23',
+dont: '0967865204',
+have: '043940875X',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_calumet_city',
+title: 'IL - Chicago Calumet City',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=24',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_calumet_city_juvenile',
+title: 'IL - Chicago Calumet City Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=25',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_calumet_park',
+title: 'IL - Chicago Calumet Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=26',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_calumet_park_juvenile',
+title: 'IL - Chicago Calumet Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=27',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_chicago_heights',
+title: 'IL - Chicago Chicago Heights',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=28',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_chicago_heights_juvenile',
+title: 'IL - Chicago Chicago Heights Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=29',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_chicago_ridge',
+title: 'IL - Chicago Chicago Ridge',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=30',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_chicago_ridge_juvenile',
+title: 'IL - Chicago Chicago Ridge Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=31',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_cicero',
+title: 'IL - Chicago Cicero',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=32',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_cicero_branch',
+title: 'IL - Chicago Cicero Branch',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=34',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_cicero_branch_juvenile',
+title: 'IL - Chicago Cicero Branch Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=35',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_cicero_juvenile',
+title: 'IL - Chicago Cicero Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=33',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_clarendon_hills',
+title: 'IL - Chicago Clarendon Hills',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=36',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_clarendon_hills_juvenile',
+title: 'IL - Chicago Clarendon Hills Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=37',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_crestwood',
+title: 'IL - Chicago Crestwood',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=38',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_crestwood_juvenile',
+title: 'IL - Chicago Crestwood Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=39',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_crete',
+title: 'IL - Chicago Crete',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=40',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_crete_juvenile',
+title: 'IL - Chicago Crete Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=41',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_dolton',
+title: 'IL - Chicago Dolton',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=42',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_dolton_juvenile',
+title: 'IL - Chicago Dolton Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=43',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_downers_grove',
+title: 'IL - Chicago Downers Grove',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=44',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_downers_grove_juvenile',
+title: 'IL - Chicago Downers Grove Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=45',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_eisenhower',
+title: 'IL - Chicago Eisenhower',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=46',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_eisenhower_juvenile',
+title: 'IL - Chicago Eisenhower Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=47',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_elmhurst',
+title: 'IL - Chicago Elmhurst',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=48',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_elmhurst_juvenile',
+title: 'IL - Chicago Elmhurst Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=49',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_elmwood_park',
+title: 'IL - Chicago Elmwood Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=50',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_elmwood_park_juvenile',
+title: 'IL - Chicago Elmwood Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=51',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_evergreen_park',
+title: 'IL - Chicago Evergreen Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=52',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_evergreen_park_juvenile',
+title: 'IL - Chicago Evergreen Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=53',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_flossmoor',
+title: 'IL - Chicago Flossmoor',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=54',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_flossmoor_juvenile',
+title: 'IL - Chicago Flossmoor Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=55',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_forest_park',
+title: 'IL - Chicago Forest Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=56',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_forest_park_juvenile',
+title: 'IL - Chicago Forest Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=57',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_frankfort',
+title: 'IL - Chicago Frankfort',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=58',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_frankfort_bookmobile',
+title: 'IL - Chicago Frankfort Bookmobile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=60',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_frankfort_juvenile',
+title: 'IL - Chicago Frankfort Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=59',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_glenwood_lynwood',
+title: 'IL - Chicago Glenwood-Lynwood',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=61',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_glenwood_lynwood_juvenile',
+title: 'IL - Chicago Glenwood-Lynwood Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=62',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_glenwood_bookmobile',
+title: 'IL - Chicago Glenwood Bookmobile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=161',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_grande_prairie',
+title: 'IL - Chicago Grande Prairie',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=63',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_grande_prairie_juvenile',
+title: 'IL - Chicago Grande Prairie Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=64',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_harvey',
+title: 'IL - Chicago Harvey',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=65',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_harvey_juvenile',
+title: 'IL - Chicago Harvey Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=66',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_hillside',
+title: 'IL - Chicago Hillside',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=67',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_hillside_juvenile',
+title: 'IL - Chicago Hillside Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=68',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_hinsdale',
+title: 'IL - Chicago Hinsdale',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=69',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_hinsdale_juvenile',
+title: 'IL - Chicago Hinsdale Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=70',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_hodgkins',
+title: 'IL - Chicago Hodgkins',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=71',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_hodgkins_juvenile',
+title: 'IL - Chicago Hodgkins Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=72',
+dont: '0967865204',
+have: '0394839129',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_homewood',
+title: 'IL - Chicago Homewood',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=73',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_homewood_juvenile',
+title: 'IL - Chicago Homewood Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=74',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_indian_prairie',
+title: 'IL - Chicago Indian Prairie',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=75',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_indian_prairie_juvenile',
+title: 'IL - Chicago Indian Prairie Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=76',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_justice',
+title: 'IL - Chicago Justice',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=77',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_justice_juvenile',
+title: 'IL - Chicago Justice Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=78',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_la_grange',
+title: 'IL - Chicago La Grange',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=79',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_la_grange_juvenile',
+title: 'IL - Chicago La Grange Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=80',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_la_grange_park',
+title: 'IL - Chicago La Grange Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=81',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_la_grange_park_juvenile',
+title: 'IL - Chicago La Grange Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=82',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_lyons',
+title: 'IL - Chicago Lyons',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=83',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_lyons_juvenile',
+title: 'IL - Chicago Lyons Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=84',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_matteson',
+title: 'IL - Chicago Matteson',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=85',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_matteson_juvenile',
+title: 'IL - Chicago Matteson Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=86',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_maywood',
+title: 'IL - Chicago Maywood',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=87',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_maywood_juvenile',
+title: 'IL - Chicago Maywood Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=88',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_markham',
+title: 'IL - Chicago Markham',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=6',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_markham_bookmobile',
+title: 'IL - Chicago Markham Bookmobile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=7',
+dont: '0967865204',
+have: '0590058967',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_mcconathy',
+title: 'IL - Chicago McConathy',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=91',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_mcconathy_juvenile',
+title: 'IL - Chicago McConathy Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=92',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_mccook',
+title: 'IL - Chicago McCook',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=93',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_mccook_juvenile',
+title: 'IL - Chicago McCook Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=94',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_melrose_park',
+title: 'IL - Chicago Melrose Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=95',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_melrose_park_juvenile',
+title: 'IL - Chicago Melrose Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=96',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_metropolitan_lib_system',
+title: 'IL - Chicago Metropolitan Lib System',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=133',
+dont: '0967865204',
+have: '0426200675',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_midlothian',
+title: 'IL - Chicago Midlothian',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=97',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_midlothian_juvenile',
+title: 'IL - Chicago Midlothian Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=98',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_morton_arboretum',
+title: 'IL - Chicago Morton Arboretum',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=99',
+dont: '0967865204',
+have: '0435612611',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_morton_college',
+title: 'IL - Chicago Morton College',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=101',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_north_riverside',
+title: 'IL - Chicago North Riverside',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=102',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_north_riverside_juvenile',
+title: 'IL - Chicago North Riverside Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=103',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_northlake',
+title: 'IL - Chicago Northlake',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=104',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_northlake_juvenile',
+title: 'IL - Chicago Northlake Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=105',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_oak_lawn',
+title: 'IL - Chicago Oak Lawn',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=106',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_oak_lawn_juvenile',
+title: 'IL - Chicago Oak Lawn Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=107',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_orland_park',
+title: 'IL - Chicago Orland Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=108',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_orland_park_juvenile',
+title: 'IL - Chicago Orland Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=109',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_palos_heights',
+title: 'IL - Chicago Palos Heights',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=111',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_palos_heights_juvenile',
+title: 'IL - Chicago Palos Heights Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=112',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_palos_park',
+title: 'IL - Chicago Palos Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=113',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_palos_park_juvenile',
+title: 'IL - Chicago Palos Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=114',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_park_forest',
+title: 'IL - Chicago Park Forest',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=115',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_park_forest_juvenile',
+title: 'IL - Chicago Park Forest Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=116',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_prairie_state_college',
+title: 'IL - Chicago Prairie State College',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=117',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_prairie_trails',
+title: 'IL - Chicago Prairie Trails',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=118',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_prairie_trails_juvenile',
+title: 'IL - Chicago Prairie Trails Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=119',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_richton_park',
+title: 'IL - Chicago Richton Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=121',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_richton_park_juvenile',
+title: 'IL - Chicago Richton Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=122',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_river_forest',
+title: 'IL - Chicago River Forest',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=123',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_river_forest_juvenile',
+title: 'IL - Chicago River Forest Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=124',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_river_grove',
+title: 'IL - Chicago River Grove',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=125',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_river_grove_juvenile',
+title: 'IL - Chicago River Grove Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=126',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_riverdale',
+title: 'IL - Chicago Riverdale',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=127',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_riverdale_juvenile',
+title: 'IL - Chicago Riverdale Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=128',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_riverside',
+title: 'IL - Chicago Riverside',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=129',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_riverside_juvenile',
+title: 'IL - Chicago Riverside Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=130',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_schiller_park',
+title: 'IL - Chicago Schiller Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=131',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_schiller_park_juvenile',
+title: 'IL - Chicago Schiller Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=132',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_sls_reference',
+title: 'IL - Chicago SLS Reference',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=134',
+dont: '0967865204',
+have: '058547026X',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_south_holland',
+title: 'IL - Chicago South Holland',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=135',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_south_holland_juvenile',
+title: 'IL - Chicago South Holland Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=136',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_south_suburban_college',
+title: 'IL - Chicago South Suburban College',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=137',
+dont: '0967865204',
+have: '0435905406',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_steger_south_chicago',
+title: 'IL - Chicago Steger-South Chicago',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=138',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_steger_south_chicago_juvenile',
+title: 'IL - Chicago Steger-South Chicago Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=139',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_stickney_forest_view',
+title: 'IL - Chicago Stickney-Forest View',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=140',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_stickney_forest_view_juvenile',
+title: 'IL - Chicago Stickney-Forest View Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=141',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_summit',
+title: 'IL - Chicago Summit',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=142',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_summit_juvenile',
+title: 'IL - Chicago Summit Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=143',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_thomas_ford',
+title: 'IL - Chicago Thomas Ford',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=144',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_thomas_ford_juvenile',
+title: 'IL - Chicago Thomas Ford Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=145',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_thornton',
+title: 'IL - Chicago Thornton',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=162',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_thornton_juvenile',
+title: 'IL - Chicago Thornton Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=163',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_tinley_park',
+title: 'IL - Chicago Tinley Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=146',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_tinley_park_bookmobile',
+title: 'IL - Chicago Tinley Park Bookmobile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=148',
+dont: '0967865204',
+have: '0439135206',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_tinley_park_juvenile',
+title: 'IL - Chicago Tinley Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=147',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_university_park',
+title: 'IL - Chicago University Park',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=149',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_university_park_juvenile',
+title: 'IL - Chicago University Park Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=150',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_westchester',
+title: 'IL - Chicago Westchester',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=151',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_westchester_juvenile',
+title: 'IL - Chicago Westchester Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=152',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_westmont',
+title: 'IL - Chicago Westmont',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=153',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_westmont_juvenile',
+title: 'IL - Chicago Westmont Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=154',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_william_leonard',
+title: 'IL - Chicago William Leonard',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=155',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_william_leonard_juvenile',
+title: 'IL - Chicago William Leonard Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=156',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_woodridge',
+title: 'IL - Chicago Woodridge',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=157',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_woodridge_juvenile',
+title: 'IL - Chicago Woodridge Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=158',
+dont: '0967865204',
+have: '0590353403',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_worth',
+title: 'IL - Chicago Worth',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=159',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name:'us.il.chicago_worth_juvenile',
+title: 'IL - Chicago Worth Juvenile',
+link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=160',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
 	name:'us.ca.el_dorado_county_library',
 	title: 'CA - El Dorado County Library',
 	link: 'http://ibistro.eldoradolibrary.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
