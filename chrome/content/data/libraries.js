@@ -14,6 +14,14 @@
 
 var libraries = [
 {
+	name:'us.va.prince_william_public_library_system',
+	title: 'VA - Prince William Public Library System',
+	link: 'http://librarycatalog.pwcgov.org/ipac20/ipac.jsp?menu=search&term=#{ISBN}&index=ISBNEX',
+	dont: '0967865204',
+	have: '1569245134',
+	missing: 'Sorry, could not find anything matching'
+},
+{
 name:'us.il.chicago_all_swan_libraries',
 title: 'IL - Chicago All SWAN Libraries',
 link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=1',
