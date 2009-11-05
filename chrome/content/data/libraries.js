@@ -14,6 +14,30 @@
 
 var libraries = [
 {
+	name:'us.ca.glendale_public_library',
+	title: 'CA - Glendale Public Library',
+	link: 'http://catalog.glendalepubliclibrary.org/ipac20/ipac.jsp?menu=search&term=#{ISBN}&index=ISBNEX',
+	dont: '0967865204',
+	have: '1569245134',
+	missing: 'Sorry, could not find anything matching'
+},
+{
+	name:'us.ca.pasadena_public_library',
+	title: 'CA - Pasadena Public Library',
+	link: 'http://catalog.pasadenapubliclibrary.net/ipac20/ipac.jsp?menu=search&term=#{ISBN}&index=ISBNEX',
+	dont: '0967865204',
+	have: '1569245134',
+	missing: 'Sorry, could not find anything matching'
+},
+{
+	name:'us.ks.johnson_county_library',
+	title: 'KS - Johnson County Library',
+	link: 'http://ibistro3.jocolibrary.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+	dont: '0967865204',
+	have: '0312851820',
+	missing: 'found no matches'
+},
+{
 	name:'us.va.prince_william_public_library_system',
 	title: 'VA - Prince William Public Library System',
 	link: 'http://librarycatalog.pwcgov.org/ipac20/ipac.jsp?menu=search&term=#{ISBN}&index=ISBNEX',
