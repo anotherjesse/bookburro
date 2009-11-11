@@ -14,6 +14,307 @@
 
 var libraries = [
 {
+	name:'us.tx.austin_public_library_history_center',
+	title: 'TX - Austin - History Center',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=HC',
+	dont: '0967865204',
+	have: '058527889X',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_carver_branch',
+	title: 'TX - Austin - Carver Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CB',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_cepeda_branch',
+	title: 'TX - Austin - Cepeda Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CP',
+	dont: '0967865204',
+	have: '0439136350',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_faulk_central_library',
+	title: 'TX - Austin - Faulk Central Library',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CE',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_little_walnut_creek_branch',
+	title: 'TX - Austin - Little Walnut Creek Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LW',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_manchaca_road_branch',
+	title: 'TX - Austin - Manchaca Road Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MR',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_milwood_branch',
+	title: 'TX - Austin - Milwood Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MI',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_north_village_branch',
+	title: 'TX - Austin - North Village Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=NV',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_oak_springs_branch',
+	title: 'TX - Austin - Oak Springs Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=OS',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_old_quarry_branch',
+	title: 'TX - Austin - Old Quarry Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=OQ',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_pleasant_hill_branch',
+	title: 'TX - Austin - Pleasant Hill Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=PH',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_ruiz_branch',
+	title: 'TX - Austin - Ruiz Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=RZ',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_southeast_austin_community_branch',
+	title: 'TX - Austin - SE Austin Community Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SE',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_spicewood_springs_branch',
+	title: 'TX - Austin - Spicewood Springs Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SR',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_st_john_branch',
+	title: 'TX - Austin - St. John Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SJ',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_terrazas_branch',
+	title: 'TX - Austin - Terrazas Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=TB',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_twin_oaks_branch',
+	title: 'TX - Austin - Twin Oaks Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=TO',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_university_hills_branch',
+	title: 'TX - Austin - University Hills Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=UH',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_windsor_park_branch',
+	title: 'TX - Austin - Windsor Park Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=WP',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_yarborough_branch',
+	title: 'TX - Austin - Yarborough Branch',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=YB',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_central_austin_branches',
+	title: 'TX - Austin - Central Austin Branches',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CENTRAL',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_east_austin_branches',
+	title: 'TX - Austin - East Austin Branches',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=EAST',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_north_austin_branches',
+	title: 'TX - Austin - North Austin Branches',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=NORTH',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_northeast_austin_branches',
+	title: 'TX - Austin - Northeast Austin Branches',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=NORTHEAST',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_northwest_austin_branches',
+	title: 'TX - Austin - Northwest Austin Branches',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=NORTHWEST',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+
+
+
+
+{
+	name:'us.tx.austin_public_library_south_austin_branches',
+	title: 'TX - Austin - South Austin Branches',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SOUTH',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_southeast_austin_branches',
+	title: 'TX - Austin - Southeast Austin Branches',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SOUTHEAST',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_southwest_austin_branches',
+	title: 'TX - Austin - Southwest Austin Branches',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SOUTHWEST',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library_west_austin_branches',
+	title: 'TX - Austin - West Austin Branches',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=WEST',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+{
+	name:'us.tx.austin_public_library',
+	title: 'TX - Austin Public Library',
+	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+	dont: '0967865204',
+	have: '0590353403',
+	missing: 'found no matches'
+},
+
+{
+     name: 'us.mo.municipal_library_consortium_of_st_louis',
+     title: 'St. L Muni Lib Consortium',
+     link: 'http://catalog.mlc.lib.mo.us/ipac20/ipac.jsp?profile=uc&index=ISBNEX&term=#{ISBN}',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'Sorry, could not find anything matching'
+},
+{
+     name: 'us.mo.st_louis_county_library',
+     title: 'St. Louis County Library',
+     link: 'http://webpac.slcl.org/search/i=#{ISBN}&searchscope=32',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found;'
+},
+{
+     name: 'us.mo.washington_university_in_st_louis',
+     title: 'Washington University in St. L',
+     link: 'http://catalog.wustl.edu/search~S2/?searchtype=i&searcharg=#{ISBN}',
+     have: '0262031418',
+     dont: '0967865204',
+     missing: 'No matches found;'
+},
+{
+     name: 'us.mo.university_of_missouri_st_louis',
+     title: 'University of Missouri, St. L',
+     link: 'http://laurel.lso.missouri.edu/search~S6/?searchtype=i&searcharg=#{ISBN}&searchscope=6',
+     have: '0262031418',
+     dont: '0967865204',
+     missing: 'No matches found;'
+},
+{
+     name: 'us.mo.st_louis_community_colleges_entire_collection',
+     title: 'St. L Community Colleges',
+     link: 'http://archway.missouri.edu/search~/Y?searchtype=i&searcharg=#{ISBN}&searchscope=12',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'No matches found;'
+},
+{
+     name: 'us.mo.university_of_missouri_libraries_all_merlin',
+     title: 'University of Missouri - All',
+     link: 'http://laurel.lso.missouri.edu/search~S8/?searchtype=i&searcharg=#{ISBN}&searchscope=8',
+     have: '0262031418',
+     dont: '0967865204',
+     missing: 'No matches found;'
+},
+{
+     name: 'us.mo.St_louis_university_libraries',
+     title: 'St. Louis University',
+     link: 'http://libcat.slu.edu/search~S5/?searchtype=i&searcharg=#{ISBN}+&searchscope=5',
+     have: '0262031418',
+     dont: '0967865204',
+     missing: 'No matches found;'
+},
+{
 	name:'us.ca.glendale_public_library',
 	title: 'CA - Glendale Public Library',
 	link: 'http://catalog.glendalepubliclibrary.org/ipac20/ipac.jsp?menu=search&term=#{ISBN}&index=ISBNEX',
