@@ -14,6 +14,14 @@
 
 var libraries = [
 {
+     name: 'us.az.cottonwood_public_library',
+     title: 'AZ - Cottonwood Public Library',
+     link: 'http://ylnpac.yln.info:8080/ipac20/ipac.jsp?&profile=ctw&index=ISBN&term=#{ISBN}',
+     have: '0394839129',
+     dont: '0967865204',
+     missing: 'Sorry, could not find anything matching'
+},
+{
 	name:'us.tx.austin_public_library_history_center',
 	title: 'TX - Austin - History Center',
 	link: 'https://www.ci.austin.tx.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=HC',
@@ -213,10 +221,6 @@ var libraries = [
 	have: '0590353403',
 	missing: 'found no matches'
 },
-
-
-
-
 {
 	name:'us.tx.austin_public_library_south_austin_branches',
 	title: 'TX - Austin - South Austin Branches',
