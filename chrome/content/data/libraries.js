@@ -14,6 +14,14 @@
 
 var libraries = [
 {
+name: 'us.nc.charlotte_mecklenburg_library',
+title: 'NC - Charlotte Mecklenburg Library',
+link: 'http://catalog.plcmc.org/accessible.ashx?q=isbn%3A#{ISBN}&cmd=find',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No results found'
+},
+{
 name: 'us.ca.san_diego_public_all',
 title: 'San Diego Public - ALL',
 link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
