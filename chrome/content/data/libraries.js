@@ -14,6 +14,303 @@
 
 var libraries = [
 {
+name: 'us.ca.san_diego_public_all',
+title: 'San Diego Public - ALL',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_allied_gardens/benjamin',
+title: 'San Diego Public - Allied Gardens/Benjamin',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALLIEDG_BJ',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_balboa',
+title: 'San Diego Public - Balboa',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=BALBOA',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_carmel_mountain_ranch',
+title: 'San Diego Public - Carmel Mountain Ranch',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CARMEL_MTN',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_carmel_valley',
+title: 'San Diego Public - Carmel Valley',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CARMEL_VLY',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_central_library',
+title: 'San Diego Public - Central Library',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CENTRAL',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_city_heights/weingart',
+title: 'San Diego Public - City Heights/Weingart',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CITY_HTS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_clairemont',
+title: 'San Diego Public - Clairemont',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CLAIREMONT',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_college_rolando',
+title: 'San Diego Public - College-Rolando',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=COLL-RNDO',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_kensington_normal_heights',
+title: 'San Diego Public - Kensington-Normal Heights',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=KEN-NH',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_la_jolla/riford',
+title: 'San Diego Public - La Jolla/Riford',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LA_JOLLA',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_linda_vista',
+title: 'San Diego Public - Linda Vista',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LINDA_VSTA',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_logan_heights',
+title: 'San Diego Public - Logan Heights',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LOGAN_HTS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_mira_mesa',
+title: 'San Diego Public - Mira Mesa',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MIRA_MESA',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_mission_hills',
+title: 'San Diego Public - Mission Hills',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MISN_HILLS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_mission_valley',
+title: 'San Diego Public - Mission Valley',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MISSN_VLY',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_mountain_view/beckwourth',
+title: 'San Diego Public - Mountain View/Beckwourth',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MTN_VW_BW',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_north_clairemont',
+title: 'San Diego Public - North Clairemont',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=N_CLARMONT',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_north_park',
+title: 'San Diego Public - North Park',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=N_PARK',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_north_university_community',
+title: 'San Diego Public - North University Community',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=N_UNIV_COM',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_oak_park',
+title: 'San Diego Public - Oak Park',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=OAK_PARK',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_ocean_beach',
+title: 'San Diego Public - Ocean Beach',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=OCEAN_B',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_otay_mesa_nestor',
+title: 'San Diego Public - Otay Mesa-Nestor',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=OTAYNESTOR',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_pacific_beach/taylor',
+title: 'San Diego Public - Pacific Beach/Taylor',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=PACIFIC_B',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_paradise_hills',
+title: 'San Diego Public - Paradise Hills',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=PAR_HILLS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_point_loma/hervey',
+title: 'San Diego Public - Point Loma/Hervey',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=PT_LOMA',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_rancho_bernardo',
+title: 'San Diego Public - Rancho Bernardo',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=RCHO_BRNDO',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_rancho_penasquitos',
+title: 'San Diego Public - Rancho Penasquitos',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=RCHO_PQ',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_san_carlos',
+title: 'San Diego Public - San Carlos',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SAN_CARLOS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_san_diego_public_library',
+title: 'San Diego Public - San Diego Public Library',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SDPL',
+dont: '0967865204',
+have: '0439786770',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_san_ysidro',
+title: 'San Diego Public - San Ysidro',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SAN_YSIDRO',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_scripps_miramar_ranch',
+title: 'San Diego Public - Scripps Miramar Ranch',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SCRIPPSRCH',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_serra_mesa_kearny_mesa',
+title: 'San Diego Public - Serra Mesa-Kearny Mesa',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SM-KMESA',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_skyline_hills',
+title: 'San Diego Public - Skyline Hills',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SKYL_HILLS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_tierrasanta',
+title: 'San Diego Public - Tierrasanta',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=TIERRASNTA',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_university_community',
+title: 'San Diego Public - University Community',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=UNIV_COM',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_diego_public_university_heights',
+title: 'San Diego Public - University Heights',
+link: 'https://sddp.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=UNIV_HTS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+
+{
      name: 'us.az.cottonwood_public_library',
      title: 'AZ - Cottonwood Public Library',
      link: 'http://ylnpac.yln.info:8080/ipac20/ipac.jsp?&profile=ctw&index=ISBN&term=#{ISBN}',
@@ -4968,9 +5265,6 @@ missing: 'No matches found'
      have: '0439786770',
      missing: 'found no matches in the library you searched'
 },
-
-
-
 {
      name: 'us.ca.sandiego.4s_ranch',
      title: 'San Diego -  4S Ranch',
@@ -5269,13 +5563,6 @@ missing: 'No matches found'
     },
     { name: 'us.san_diego_county',
       title: 'San Diego County Library',
-      link: 'http://dbpcosdcsgt.co.san-diego.ca.us/search/i?SEARCH=#{ISBN}&searchscope=38',
-      dont: '0967865204',
-      have: '0967851009',
-      missing: 'No matches found; nearby ISBN/ISSN are'
-    },
-    { name: 'us.san_diego_public',
-      title: 'San Diego Public Library',
       link: 'http://dbpcosdcsgt.co.san-diego.ca.us/search/i?SEARCH=#{ISBN}&searchscope=38',
       dont: '0967865204',
       have: '0967851009',
