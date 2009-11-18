@@ -14,6 +14,14 @@
 
 var libraries = [
 {
+name: 'us.or.multnomah_county_library',
+title: 'OR - Multnomah County Library',
+link: 'http://catalog.multcolib.org/search/i?SEARCH=#{ISBN}',
+have: '0881929506',
+dont: '0967865204',
+missing: 'No matches found'
+},
+{
 name: 'us.nc.charlotte_mecklenburg_library',
 title: 'NC - Charlotte Mecklenburg Library',
 link: 'http://catalog.plcmc.org/accessible.ashx?q=isbn%3A#{ISBN}&cmd=find',
