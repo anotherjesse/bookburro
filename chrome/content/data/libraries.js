@@ -15,7 +15,7 @@
 var libraries = [
 {
 name: 'us.wa.olympic_college',
-title: 'AAA WA - Olympic College',
+title: 'WA - Olympic College',
 link: 'http://olympic.library.ctc.edu/vwebv/search?searchArg1=#{ISBN}&argType1=any&searchCode1=ISBN&searchType=2',
 have: '067976402X',
 dont: '0967865204',
