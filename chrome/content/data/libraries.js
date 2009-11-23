@@ -14,6 +14,22 @@
 
 var libraries = [
 {
+name: 'us.wa.olympic_college',
+title: 'AAA WA - Olympic College',
+link: 'http://olympic.library.ctc.edu/vwebv/search?searchArg1=#{ISBN}&argType1=any&searchCode1=ISBN&searchType=2',
+have: '067976402X',
+dont: '0967865204',
+missing: 'Search resulted in no hits'
+},
+{
+name: 'us.mn.dakota_county_library',
+title: 'MN - Dakota County Library',
+link: 'http://ipac.dakota.lib.mn.us/ipac20/ipac.jsp?&profile=ctw&index=ISBNEX&term=#{ISBN}',
+have: '0394839129',
+dont: '0967865204',
+missing: 'Sorry, could not find anything matching'
+},
+{
 name: 'us.or.multnomah_county_library',
 title: 'OR - Multnomah County Library',
 link: 'http://catalog.multcolib.org/search/i?SEARCH=#{ISBN}',
