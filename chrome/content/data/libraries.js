@@ -14,6 +14,14 @@
 
 var libraries = [
 {
+name: 'us.ny.ithaca_college_library',
+title: 'NY - Ithaca College Library',
+link: 'http://icarus.ithaca.edu/cgi-bin/Pwebrecon.cgi?SAB1=#{ISBN}&FLD1=ISBN+%28ISBN%29&CNT=10&HIST=1',
+dont: '0151012237',
+have: '0439136350',
+missing: 'Your search resulted in no hits'
+},
+{
 name: 'us.wa.olympic_college',
 title: 'WA - Olympic College',
 link: 'http://olympic.library.ctc.edu/vwebv/search?searchArg1=#{ISBN}&argType1=any&searchCode1=ISBN&searchType=2',
