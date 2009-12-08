@@ -199,8 +199,11 @@ var stores = [
     query: 'http://search.barnesandnoble.com/booksearch/isbninquiry.asp?isbn=#{ISBN}',
     process: function(req) {
       // <strong style="text-decoration: none;">$35.99</strong></span> Member price
-      try {
-        return req.responseText.match(/<strong[^>]*>(\$[0-9.]*)<\/strong><\/span> Member price/)[1];
+//<span class="memberPriceValue">$14.36</span>
+
+   try {
+	return req.responseText.match(/<span class=['"]+[^'"]*memberPriceValue[^'"]*['"]+>(\$[0-9.]*)<\/span>/)[1];
+        //return req.responseText.match(/<strong[^>]*>(\$[0-9.]*)<\/strong><\/span> Member price/)[1];
       } catch (e) {}
     }
   },
