@@ -14,6 +14,14 @@
 
 var libraries = [
 {
+name: 'de.de-ni.bibliothek_der_fachhochschule_hannover',
+title: 'DE - Bibliothek der Fachhochschule Hannover',
+link: 'http://opac.tib.uni-hannover.de/DB=4/SET=1/TTL=1/CLK?IKT=1007&TRM=#{ISBN}',
+have: '3800635240',
+dont: '0967865204',
+missing: 'Sie einen Suchbegriff und klicken Sie auf <strong>absenden</strong>, oder klicken Sie direkt auf einen Suchbegriff'
+},
+{
 name: 'us.ny.ithaca_college_library',
 title: 'NY - Ithaca College Library',
 link: 'http://icarus.ithaca.edu/cgi-bin/Pwebrecon.cgi?SAB1=#{ISBN}&FLD1=ISBN+%28ISBN%29&CNT=10&HIST=1',
