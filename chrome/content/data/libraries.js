@@ -14,6 +14,198 @@
 
 var libraries = [
 {
+name: 'us.ga.cobb_county_library_all',
+title: 'GA -Cobb County Library - ALL',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_marietta_area_libraries',
+title: 'GA -Cobb County Library - Marietta Area Libraries',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MARIETTA',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_northeast_cobb_county_libraries',
+title: 'GA -Cobb County Library - Northeast Cobb County Libraries',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=NORTHEAST',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_northwest_cobb_county_libraries',
+title: 'GA -Cobb County Library - Northwest Cobb County Libraries',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=NORTHWEST',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_south_cobb_county_libraries',
+title: 'GA -Cobb County Library - South Cobb County Libraries',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SOUTH',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_southeast_cobb_county_libraries',
+title: 'GA -Cobb County Library - Southeast Cobb County Libraries',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SOUTHEAST',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_acworth_library',
+title: 'GA -Cobb County Library - Acworth Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ACWORTH',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_acworth_library',
+title: 'GA -Cobb County Library - Central Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CENTRAL',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_east_marietta_library',
+title: 'GA -Cobb County Library - East Marietta Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=EASTMTTA',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_gritters_library',
+title: 'GA -Cobb County Library - Gritters Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=GRITTERS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_hattie_g_wilson_library',
+title: 'GA -Cobb County Library - Hattie G. Wilson Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=HGWILSON',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_kemp_memorial_library',
+title: 'GA -Cobb County Library - Kemp Memorial Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=KEMP',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_kennesaw_library',
+title: 'GA -Cobb County Library - Kennesaw Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=KENNESAW',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_lewis_a_ray_library',
+title: 'GA -Cobb County Library - Lewis A. Ray Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LARAY',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_merchants_walk_library',
+title: 'GA -Cobb County Library - Merchants Walk Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MERCHANTS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_mountain_view_regional_library',
+title: 'GA -Cobb County Library - Mountain View Regional Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MTNVIEW',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_powder_springs_library',
+title: 'GA -Cobb County Library - Powder Springs Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=POWSPRINGS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_sibley_library',
+title: 'GA -Cobb County Library - Sibley Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SIBLEY',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_south_cobb_regional_library',
+title: 'GA -Cobb County Library - South Cobb Regional Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SOUTHCOBB',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_stratton_library',
+title: 'GA -Cobb County Library - Stratton Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=STRATTON',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_sweetwater_valley_library',
+title: 'GA -Cobb County Library - Sweetwater Valley Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SWEETWATER',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_system_reserves',
+title: 'GA -Cobb County Library - System Reserves',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=RESERVES',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_vinings_library',
+title: 'GA -Cobb County Library - Vinings Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=VININGS',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ga.cobb_county_library_west_cobb_regional_library',
+title: 'GA -Cobb County Library - West Cobb Regional Library',
+link: 'http://cbpl.sirsi.net/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=WESTCOBB',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
 name: 'de.de-ni.bibliothek_der_fachhochschule_hannover',
 title: 'DE - Bibliothek der Fachhochschule Hannover',
 link: 'http://opac.tib.uni-hannover.de/DB=4/SET=1/TTL=1/CLK?IKT=1007&TRM=#{ISBN}',
