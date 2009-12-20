@@ -2785,7 +2785,7 @@ missing: 'No matches found'
 },
 {
 	name:'us.ca.sonoma_county',
-	title: 'CA - Sanoma County',
+	title: 'CA - Sonoma County',
 	link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&term=#{ISBN}&index=ISBNEX',
 	dont: '0967865204',
 	have: '0439136350',
