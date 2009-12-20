@@ -13,6 +13,191 @@
 
 var libraries = [
 {
+name: 'us.ca.sonoma_county_library_central',
+title: 'CA - Sonoma County Library - Central',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=cent',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_cloverdale',
+title: 'CA - Sonoma County Library - Cloverdale',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=clov',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_coast_community',
+title: 'CA - Sonoma County Library - Coast Community',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=coas',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_forestville',
+title: 'CA - Sonoma County Library - Forestville',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=fore',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_fort_bragg',
+title: 'CA - Sonoma County Library - Fort Bragg',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=fort',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_guerneville',
+title: 'CA - Sonoma County Library - Guerneville',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=guer',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_healdsburg',
+title: 'CA - Sonoma County Library - Healdsburg',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=heal',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_lakeport',
+title: 'CA - Sonoma County Library - Lakeport',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=lake',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_mendocino_bookmobile',
+title: 'CA - Sonoma County Library - Mendocino Bookmobile',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=mbkm',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_middletown',
+title: 'CA - Sonoma County Library - Middletown',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=midd',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_northwest',
+title: 'CA - Sonoma County Library - Northwest',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=nort',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_occidental',
+title: 'CA - Sonoma County Library - Occidental',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=occi',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_petaluma',
+title: 'CA - Sonoma County Library - Petaluma',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=peta',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_redbud',
+title: 'CA - Sonoma County Library - Redbud',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=redb',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_rincon_valley',
+title: 'CA - Sonoma County Library - Rincon Valley',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=rinc',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_rohnert_park',
+title: 'CA - Sonoma County Library - Rohnert Park',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=rohn',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_sebastopol',
+title: 'CA - Sonoma County Library - Sebastopol',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=seba',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_sonoma',
+title: 'CA - Sonoma County Library - Sonoma',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=sono',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_ukiah',
+title: 'CA - Sonoma County Library - Ukiah',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=ukia',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_upper_lake',
+title: 'CA - Sonoma County Library - Upper Lake',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=uppe',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_willits',
+title: 'CA - Sonoma County Library - Willits',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=will',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_windsor',
+title: 'CA - Sonoma County Library - Windsor',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=wind',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ca.sonoma_county_library_wine_library',
+title: 'CA - Sonoma County Library - Wine',
+link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&CO01=co_wl',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+
+{
 name: 'us.ca.los_angeles_public_library_alma_reaves_woods_watts_branch',
 title: 'CA - Los Angeles Public Library',
 link: 'http://catalog.lapl.org/carlweb/jsp/DoSearch?databaseID=965&index=I&terms=#{ISBN}',
