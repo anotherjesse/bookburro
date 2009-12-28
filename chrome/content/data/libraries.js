@@ -13,6 +13,22 @@
 
 var libraries = [
 {
+name: 'us.ak.fairbanks_north_star_borough',
+title: 'AK - Fairbanks North Star Borough',
+link: 'http://catalog.fnsb.lib.ak.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.fl.miami_dade_county_public_library',
+title: 'FL - Miami-Dade County',
+link: 'http://webcatalog.mdpls.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
+have: '0545010225',
+dont: '0967865204',
+missing: 'could not find anything matching'
+},
+{
 name: 'us.ca.sonoma_county_library_central',
 title: 'CA - Sonoma County Library - Central',
 link: 'http://catalog.sonomalibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}&LO01=cent',
