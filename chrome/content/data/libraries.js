@@ -13,6 +13,416 @@
 
 var libraries = [
 {
+name: 'us.ny.suffolk_county',
+title: 'NY - Suffolk County',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=83',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_amityville',
+title: 'NY - Suffolk County - Amityville',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=1',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_babylon',
+title: 'NY - Suffolk County - Babylon',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=3',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_bayport_blue_point',
+title: 'NY - Suffolk County - Bayport Blue Point',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=5',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_brentwood',
+title: 'NY - Suffolk County - Brentwood',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=6',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_brookhaven',
+title: 'NY - Suffolk County - Brookhaven',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=7',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_center_moriches',
+title: 'NY - Suffolk County - Center Moriches',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=8',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_central_islip',
+title: 'NY - Suffolk County - Central Islip',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=10',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_cold_spring_harbor',
+title: 'NY - Suffolk County - Cold Spring Harbor',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=12',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_commack',
+title: 'NY - Suffolk County - Commack',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=13',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_comsewogue',
+title: 'NY - Suffolk County - Comsewogue',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=14',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_cutchogue',
+title: 'NY - Suffolk County - Cutchogue',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=17',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_deer_park',
+title: 'NY - Suffolk County - Deer Park',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=18',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_east_islip',
+title: 'NY - Suffolk County - East Islip',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=20',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_east_hampton_library',
+title: 'NY - Suffolk County - East Hampton Library',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=76',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_elwood',
+title: 'NY - Suffolk County - Elwood',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=16',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_floyd_memorial',
+title: 'NY - Suffolk County - Floyd Memorial',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=53',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_half_hollow_hills',
+title: 'NY - Suffolk County - Half Hollow Hills',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=23',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_hampton_bays',
+title: 'NY - Suffolk County - Hampton Bays',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=26',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_hampton_library',
+title: 'NY - Suffolk County - Hampton Library',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=27',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_harborfields',
+title: 'NY - Suffolk County - Harborfields',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=28',
+dont: '0967865204',
+have: '0439786770',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_hauppauge',
+title: 'NY - Suffolk County - Hauppauge',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=29',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_huntington',
+title: 'NY - Suffolk County - Huntington',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=30',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_huntington_main',
+title: 'NY - Suffolk County - Huntington-Main',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=31',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_huntington_station',
+title: 'NY - Suffolk County - Huntington-Station',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=32',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_islip',
+title: 'NY - Suffolk County - Islip',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=33',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_john_jermain',
+title: 'NY - Suffolk County - John Jermain',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=34',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_lindenhurst',
+title: 'NY - Suffolk County - Lindenhurst',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=35',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_longwood',
+title: 'NY - Suffolk County - Longwood',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=36',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_mastics_moriches_shirley',
+title: 'NY - Suffolk County - Mastics-Moriches-Shirley',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=37',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_mattituck_laurel',
+title: 'NY - Suffolk County - Mattituck-Laurel',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=78',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_montauk',
+title: 'NY - Suffolk County - Montauk',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=39',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_north_babylon',
+title: 'NY - Suffolk County - North Babylon',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=40',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_north_shore',
+title: 'NY - Suffolk County - North Shore',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=41',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_northport_e_northport',
+title: 'NY - Suffolk County - Northport-E Northport',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=43',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_patchogue_medford',
+title: 'NY - Suffolk County - Patchogue-Medford',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=46',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_port_jefferson',
+title: 'NY - Suffolk County - Port Jefferson',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=50',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_quogue',
+title: 'NY - Suffolk County - Quogue',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=79',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_riverhead',
+title: 'NY - Suffolk County - Riverhead',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=52',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_rogers_memorial',
+title: 'NY - Suffolk County - Rogers Memorial',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=80',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_sachem',
+title: 'NY - Suffolk County - Sachem',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=54',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_sayville',
+title: 'NY - Suffolk County - Sayville',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=58',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_shelter_island_library',
+title: 'NY - Suffolk County - Shelter Island Library',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=82',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_smithtown',
+title: 'NY - Suffolk County - Smithtown',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=62',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_south_country',
+title: 'NY - Suffolk County - South Country',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=64',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_south_huntington',
+title: 'NY - Suffolk County - South Huntington',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=65',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_southold',
+title: 'NY - Suffolk County - Southold',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=66',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_west_babylon',
+title: 'NY - Suffolk County - West Babylon',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=67',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_west_islip',
+title: 'NY - Suffolk County - West Islip',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=70',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_westhampton',
+title: 'NY - Suffolk County - Westhampton',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=71',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.ny.suffolk_county_wyandanch',
+title: 'NY - Suffolk County - Wyandanch',
+link: 'http://alpha2.suffolk.lib.ny.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=72',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+
+
+{
 name: 'us.ak.fairbanks_north_star_borough',
 title: 'AK - Fairbanks North Star Borough',
 link: 'http://catalog.fnsb.lib.ak.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN',
