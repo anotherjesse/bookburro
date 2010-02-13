@@ -13,6 +13,30 @@
 
 var libraries = [
 {
+name: 'us.wa.tacoma_public_library',
+title: 'WA - Tacoma Public Library',
+link: 'http://topcat.tacomapubliclibrary.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches',
+},
+{
+name:'us.ut.salt_lake_city_libraries_all',
+title: 'UT - Salt Lake City Libraries - All',
+link: 'http://catalog.slcpl.org/search/?searchtype=i&searcharg=#{ISBN}',
+have: '0545010225',
+dont: '0767913469',
+missing: 'No matches found'
+},
+{
+name:'us.ut.salt_lake_county_libraries_all',
+title: 'UT - Salt Lake County Libraries - All',
+link: 'http://ipac.slco.lib.ut.us/ipac20/ipac.jsp?index=ISBNEX&term=#{ISBN}',
+have: '0156012197',
+dont: '0201558025',
+missing: 'Sorry, could not find anything matching'
+},
+{
 name: 'us.ks.lawrence_pub_library',
 title: 'KS - Lawrence Public Library',
 link: 'http://catalog.lawrence.lib.ks.us/search/i?SEARCH=#{ISBN}',
