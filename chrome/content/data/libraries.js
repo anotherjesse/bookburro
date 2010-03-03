@@ -12,6 +12,70 @@
 */
 
 var libraries = [
+{
+name: 'us.or.coastal_resource_sharing_network_all',
+title: 'OR - Coastal Resource Sharing Network',
+link: 'http://www.beachbooks.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALLSEARCH',
+dont: '0967865204',
+have: '0439136350',
+missing: ' we couldn\'t find what you were looking for'
+},
+{
+name: 'us.or.coastal_resource_sharing_network_driftwood',
+title: 'OR - Driftwood',
+link: 'http://www.beachbooks.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=DRIFTWD',
+dont: '0967865204',
+have: '0439136350',
+missing: ' we couldn\'t find what you were looking for'
+},
+{
+name: 'us.or.coastal_resource_sharing_network_newport',
+title: 'OR - Newport',
+link: 'http://www.beachbooks.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=NPSEARCH',
+dont: '0967865204',
+have: '0439136350',
+missing: ' we couldn\'t find what you were looking for'
+},
+{
+name: 'us.or.coastal_resource_sharing_network_lincoln_county',
+title: 'OR - Lincoln County',
+link: 'http://www.beachbooks.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LCLDSEARCH',
+dont: '0967865204',
+have: '067164436X',
+missing: ' we couldn\'t find what you were looking for'
+},
+{
+name: 'us.or.coastal_resource_sharing_network_oregon_coast_cc',
+title: 'OR - Oregon Coast CC',
+link: 'http://www.beachbooks.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=OCCCSEARCH',
+dont: '0967865204',
+have: '0439786770',
+missing: ' we couldn\'t find what you were looking for'
+},
+{
+name: 'us.or.coastal_resource_sharing_network_siletz',
+title: 'OR - Siletz',
+link: 'http://www.beachbooks.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SZSEARCH',
+dont: '0967865204',
+have: '0439136350',
+missing: ' we couldn\'t find what you were looking for'
+},
+{
+name: 'us.or.coastal_resource_sharing_network_toledo',
+title: 'OR - Toledo',
+link: 'http://www.beachbooks.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=TDSEARCH',
+dont: '0967865204',
+have: '0439136350',
+missing: ' we couldn\'t find what you were looking for'
+},
+{
+name: 'us.or.coastal_resource_sharing_network_waldport',
+title: 'OR - Waldport',
+link: 'http://www.beachbooks.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=WPSEARCH',
+dont: '0967865204',
+have: '0439136350',
+missing: ' we couldn\'t find what you were looking for'
+},
 
 {
 name: 'us.va.fairfax_county_library_all',
