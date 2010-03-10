@@ -13,6 +13,22 @@
 
 var libraries = [
 {
+name: 'us.ct.westport_public_library',
+title: 'AAA CT - Westport Public Library',
+link: 'http://catalog.westportlibrary.org/ipac20/ipac.jsp?index=ISBNEX&term=#{ISBN}',
+dont: '0967865204',
+have: '0439136350',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.oh.cuyahoga_county',
+title: 'OH - Cuyahoga County',
+link: 'https://sciron.cuyahoga.lib.oh.us/search/?searchtype=i&availlim=1&searcharg=#{ISBN}',
+dont: '0321279670',
+have: '0439136350',
+missing: 'No available matches found'
+},
+{
 name: 'us.tx.san_antonio_library_all',
 title: 'TX - San Antonio Public Library - All',
 link: 'http://sapl.sat.lib.tx.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=1',
