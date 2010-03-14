@@ -13,8 +13,16 @@
 
 var libraries = [
 {
+name: 'us.il.chicago_public_library',
+title: 'IL - Chicago Public Library',
+link: 'http://www.chipublib.org/search/results?isbn=#{ISBN}&advancedSearch=submitted',
+dont: '0967865204',
+have: '0439136350',
+missing: 'Your search did not produce any results'
+},
+{
 name: 'us.ct.westport_public_library',
-title: 'AAA CT - Westport Public Library',
+title: 'CT - Westport Public Library',
 link: 'http://catalog.westportlibrary.org/ipac20/ipac.jsp?index=ISBNEX&term=#{ISBN}',
 dont: '0967865204',
 have: '0439136350',
